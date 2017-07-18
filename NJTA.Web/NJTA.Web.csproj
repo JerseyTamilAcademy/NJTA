@@ -213,6 +213,7 @@
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Views\Shared\_Footer.ta.cshtml" />
     <Content Include="Views\Shared\_Navigation.ta.cshtml" />
+    <Content Include="Views\Shared\ComingSoon.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

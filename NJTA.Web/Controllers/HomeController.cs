@@ -8,19 +8,55 @@ namespace NJTA.Web.Controllers
         {
             return View();
         }
+        public ActionResult Resources()
+        {
+            ViewBag.Title = "Resources";
+            return View("ComingSoon");
+        }
 
+        public ActionResult Team()
+        {
+            ViewBag.Title = "Our Team";
+            return View("ComingSoon");
+        }
+        
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
+
+        //Footer Link
+        public ActionResult News()
+        {
+            ViewBag.Title = "News";
+            return View("ComingSoon");
+        }
+        public ActionResult Events()
+        {
+            ViewBag.Title = "Events";
+            return View("ComingSoon");
+        }
+        public ActionResult Photos()
+        {
+            ViewBag.Title = "Photo Galleries";
+            return View("ComingSoon");
+        }
+        public ActionResult Videos()
+        {
+            ViewBag.Title = "Video Albums";
+            return View("ComingSoon");
+        }
+
+        public ActionResult VolunteersSignUp()
+        {
+            ViewBag.Title = "Volunteers SignUp";
+            return View("ComingSoon");
+        }
+
     }
 }
