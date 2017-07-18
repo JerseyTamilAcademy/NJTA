@@ -1,19 +1,41 @@
-﻿<div class="navbar navbar-inverse navbar-fixed-top">
+﻿<!-- Navigation -->
+@{
+    var ControllerName = HttpContext.Current.Request.RequestContext.RouteData.Values["controller"].ToString();
+    var ActionName = HttpContext.Current.Request.RequestContext.RouteData.Values["action"].ToString();
+    var PageName = string.Format("{0}.{1}", ControllerName, ActionName);
+}
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jts-navbar-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <a class="navbar-brand" href="@Url.Action("Index", "Home")">Thiruvalluvar Tamil School</a>
         </div>
-        <div class="navbar-collapse collapse">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="jts-navbar-collapse">
             <ul class="nav navbar-nav">
-                <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                <li>@Html.ActionLink("About", "About", "Home")</li>
-                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                <li><a href="~/ta/@ControllerName/@ActionName">த</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="@(string.Compare(PageName,"Home.Resources") == 0 ? "active" : "")">@Html.ActionLink("Resources", "Resources", "Home")</li>
+                <li class="@(string.Compare(PageName,"Home.Team") == 0 ? "active" : "")">@Html.ActionLink("Team", "Team", "Home")</li>
+                <li class="dropdown @(string.Compare(ControllerName,"School") == 0 ? "active" : "")">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">School<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li class="@(string.Compare(PageName,"School.Edison") == 0 ? "active" : "")">@Html.ActionLink("Edison", "Edison", "School")</li>
+                        <li class="@(string.Compare(PageName,"School.Parsippany") == 0 ? "active" : "")">@Html.ActionLink("Parsippany", "Parsippany", "School")</li>
+                    </ul>
+                </li>
+                <li class="@(string.Compare(PageName,"Home.About") == 0 ? "active" : "")">@Html.ActionLink("About Us", "About", "Home")</li>
+                <li class="@(string.Compare(PageName,"Home.Contact") == 0 ? "active" : "")">@Html.ActionLink("Contact Us", "Contact", "Home")</li>
             </ul>
         </div>
+        <!-- /.navbar-collapse -->
     </div>
-</div>
+    <!-- /.container -->
+</nav>
