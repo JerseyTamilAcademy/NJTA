@@ -46,7 +46,7 @@ namespace NJTA.Web.Util
 
         private string GetLangExtn(ControllerContext controllerContext)
         {
-            string lang = controllerContext.RouteData.Values["lang"].ToString();
+            string lang = (controllerContext.RouteData.Values["lang"] as string) ?? string.Empty;
             string langExtn = "";
             if (lang == "ta")
                 langExtn = ".ta";
