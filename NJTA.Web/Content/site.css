@@ -5,6 +5,7 @@ body {
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    color: #878e83;
 }
 
 .body-main {
@@ -17,12 +18,17 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 30px;
     flex: 1;
+}
+
+.navbar-brand {
+    white-space: nowrap;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #808080;
+    background-color: #e3e9dc;
     padding: 15px;
 }
 
@@ -225,4 +231,41 @@ header.carousel .fill {
         color: #ffffff;
         background-color: #005b72;
     }
+}
+
+/* More Custom Css*/
+
+ul.link-list {
+    list-style-type: none;
+    -webkit-padding-start: 5px;
+}
+
+ul.link-list li {
+    border-top: solid 1px #ced0b7;
+    padding: 0.75em 0 0 0;
+    margin: 0.75em 0 0 0;
+}
+
+ul.link-list li:first-child {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+}
+
+h1, h2, h3, h4 {
+    color: #007897;
+    font-weight: normal;
+}
+
+hr.divider {
+    border-top-color: #ced0b7;
+}
+
+a.links{
+    color: #5d93a2;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
 }
