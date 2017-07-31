@@ -195,6 +195,7 @@
     <Content Include="Scripts\respond.matchmedia.addListener.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Views\Shared\_TextBanner.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -214,6 +215,7 @@
     <Content Include="Views\Shared\_Footer.ta.cshtml" />
     <Content Include="Views\Shared\_Navigation.ta.cshtml" />
     <Content Include="Views\Shared\ComingSoon.cshtml" />
+    <Content Include="Views\Shared\_Carousel.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

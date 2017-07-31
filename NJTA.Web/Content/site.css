@@ -269,3 +269,8 @@ a.links{
 a:hover {
     text-decoration: none;
 }
+
+.text-bigandbold{
+    font-size: larger;
+    font-weight: bold;
+}
