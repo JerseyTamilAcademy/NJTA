@@ -274,3 +274,24 @@ a:hover {
     font-size: larger;
     font-weight: bold;
 }
+
+/* xs */
+img.small-icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+/* md */
+@media (min-width: 992px) {
+    img.small-icon {
+        width: 70px;
+    }
+}
+
+/* lg */
+@media (min-width: 1200px) {
+    img.small-icon {
+        width: 78px;
+    }
+}

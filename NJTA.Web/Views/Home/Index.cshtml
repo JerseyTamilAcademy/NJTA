@@ -8,22 +8,45 @@
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <h2>Mission</h2>
+        <p>Jersey Tamil Academy was founded to create an interesting platform for children and young adult students living in the Garden State of New Jersey to learn - Read, Write and Converse - Tamil, an ancient South Indian Language that has a great history and rich literature. The goal of our school is to continue and revive Tamil amongst our next generation as language is the eye to the culture and make our children feel proud of our great Tamil language.</p>
+        <!--
+            <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
+        -->
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <h2>Motto</h2>
+        <p>Our school’s motto is to pass our longest surviving classical language and culture on to our successive generations.</p>
+        <p>Our Thiruvalluvar Tamil School was state registered in New Jersey as a non-profit organization (since 2011) and also Federal Tax Exempt under 501(c)3 with IRS (since 2013).</p>
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <h2>Notice Board</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="@Url.Action("Index", "Registration", null)">
+                            <img src="~/images/registernow.jpg" alt="Register Now" class="small-icon" />
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Registration Now Open.</h4>
+                        Registration is OPEN for the current Academic Year 2016-17 !!!
+                        @Html.ActionLink("Register Now", "Index", "Registration")
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="media">
+                    <div class="media-left">
+                        <img src="~/images/welcomeback.jpg" alt="Welcome Back" class="small-icon" />
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Welcome back to School!</h4>
+                        School Starts On Sat 09/09/2017
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
