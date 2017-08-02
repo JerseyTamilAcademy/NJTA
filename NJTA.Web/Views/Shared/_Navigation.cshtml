@@ -26,6 +26,8 @@
             -->
 
             <ul class="nav navbar-nav navbar-right">
+                <li class="@(string.Compare(PageName,"Home.Index") == 0 ? "active" : "")">@Html.ActionLink("Home", "Index", "Home")</li>
+                <li class="@(string.Compare(PageName,"Home.About") == 0 ? "active" : "")">@Html.ActionLink("About Us", "About", "Home")</li>
                 <li class="@(string.Compare(PageName,"Home.Resources") == 0 ? "active" : "")">@Html.ActionLink("Resources", "Resources", "Home")</li>
                 <li class="@(string.Compare(PageName,"Home.Team") == 0 ? "active" : "")">@Html.ActionLink("Team", "Team", "Home")</li>
                 <li class="dropdown @(string.Compare(ControllerName,"School") == 0 ? "active" : "")">
@@ -35,7 +37,6 @@
                         <li class="@(string.Compare(PageName,"School.Parsippany") == 0 ? "active" : "")">@Html.ActionLink("Parsippany", "Parsippany", "School")</li>
                     </ul>
                 </li>
-                <li class="@(string.Compare(PageName,"Home.About") == 0 ? "active" : "")">@Html.ActionLink("About Us", "About", "Home")</li>
                 <li class="@(string.Compare(PageName,"Home.Contact") == 0 ? "active" : "")">@Html.ActionLink("Contact Us", "Contact", "Home")</li>
             </ul>
         </div>
