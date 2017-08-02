@@ -179,6 +179,9 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="images\email.png" />
+    <Content Include="images\location.jpg" />
+    <Content Include="images\phone.png" />
     <Content Include="images\registernow.jpg" />
     <Content Include="images\welcomeback.jpg" />
     <Content Include="Scripts\bootstrap.js" />
