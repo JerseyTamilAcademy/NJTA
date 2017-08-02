@@ -295,3 +295,12 @@ img.small-icon {
         width: 78px;
     }
 }
+
+ul.simple {
+    list-style-type: circle;
+}
+
+ul.simple li {
+    padding: 0.3em 0 0 0;
+    margin: 0 0 0 0.3em;
+}

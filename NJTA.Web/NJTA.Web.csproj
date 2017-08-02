@@ -144,6 +144,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -178,6 +179,9 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="docs\pdfs\CTA-School-Registration-Rules-And-Regulation.pdf" />
+    <Content Include="docs\pdfs\CTA-School-Waiver-Policy.pdf" />
+    <Content Include="docs\pdfs\TTS-GuideLines-Students-2015-2016.pdf" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="images\email.png" />
     <Content Include="images\location.jpg" />
@@ -221,6 +225,7 @@
     <Content Include="Views\Shared\_Navigation.ta.cshtml" />
     <Content Include="Views\Shared\ComingSoon.cshtml" />
     <Content Include="Views\Shared\_Carousel.cshtml" />
+    <Content Include="Views\Registration\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
