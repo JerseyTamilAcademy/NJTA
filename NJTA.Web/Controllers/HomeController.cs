@@ -48,8 +48,7 @@ namespace NJTA.Web.Controllers
         }
         public ActionResult Videos()
         {
-            ViewBag.Title = "Video Albums";
-            return View("ComingSoon");
+            return View();
         }
 
         public ActionResult VolunteersSignUp()

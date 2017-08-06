@@ -227,6 +227,7 @@
     <Content Include="Views\Shared\ComingSoon.cshtml" />
     <Content Include="Views\Shared\_Carousel.cshtml" />
     <Content Include="Views\Registration\Index.cshtml" />
+    <Content Include="Views\Home\Videos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
