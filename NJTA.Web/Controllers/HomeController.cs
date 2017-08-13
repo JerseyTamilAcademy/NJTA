@@ -25,9 +25,13 @@ namespace NJTA.Web.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Contact(string id)
         {
-            return View();
+            if (string.IsNullOrEmpty(id))
+                id = "edison";
+            var actionName = RouteData.Values["action"].ToString();
+            var viewName = string.Concat(actionName, ".", id);
+            return View(viewName);
         }
 
         //Footer Link
