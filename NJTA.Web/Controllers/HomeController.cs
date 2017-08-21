@@ -16,8 +16,7 @@ namespace NJTA.Web.Controllers
 
         public ActionResult Team()
         {
-            ViewBag.Title = "Our Team";
-            return View("ComingSoon");
+            return View();
         }
         
         public ActionResult About()
@@ -25,7 +24,12 @@ namespace NJTA.Web.Controllers
             return View();
         }
 
-        public ActionResult Contact(string id)
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
+        public ActionResult ContactUs(string id)
         {
             if (string.IsNullOrEmpty(id))
                 id = "edison";
