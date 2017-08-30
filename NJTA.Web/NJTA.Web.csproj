@@ -233,6 +233,8 @@
     <Content Include="Views\Home\Team.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\School\Edison.cshtml" />
+    <Content Include="Views\Home\Calendar.cshtml" />
+    <Content Include="Views\Home\_Calendar.Edison.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

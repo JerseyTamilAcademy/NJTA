@@ -24,6 +24,11 @@ namespace NJTA.Web.Controllers
             return View();
         }
 
+        public ActionResult Calendar()
+        {
+            return View();
+        }
+
         public ActionResult Contact()
         {
             return View();

@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Calendar";
+}
+
+<h2>Calendar</h2>
+<br />
+
+<div class="col-lg-12">
+    <ul id="calendarTab" class="nav nav-tabs">
+        <li class="active">
+            <a href="#edison" data-toggle="tab"><i class="fa fa-tree"></i> Edison</a>
+        </li>
+        <li class="">
+            <a href="#parsippany" data-toggle="tab"><i class="fa fa-car"></i> Parsippany</a>
+        </li>
+    </ul>
+
+    <div id="calendarTabContent" class="tab-content">
+        <div class="tab-pane fade active in" id="edison">
+            @Html.Partial("_Calendar.Edison")
+        </div>
+        <div class="tab-pane fade" id="parsippany">
+            
+        </div>
+    </div>
+</div>

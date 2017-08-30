@@ -13,7 +13,8 @@ namespace NJTA.Web.Controllers
 
         public ActionResult Edison()
         {
-            return View();
+            ViewBag.Title = "Edison";
+            return View("ComingSoon");
         }
 
         public ActionResult Parsippany()
