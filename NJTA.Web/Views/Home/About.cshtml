@@ -2,6 +2,11 @@
     ViewBag.Title = "About Us";
 }
 
+@section scripts{
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="~/Scripts/growthChart.js"></script>
+}
+
 <h2>About Us</h2>
 <br />
 <div class="row">
@@ -85,5 +90,10 @@
             We are proud to say our school children are given opportunity to gain the necessary skills not only in our language but also in the leadership and policy making areas as well. Few high school students will be selected every year to participate in the United Nation’s annual commemoration of International Day of Peace at the UN Headquarters in New York, NY that they will hear presentations from the Secretary-General and interact with UN Messengers of Peace, Goodwill Ambassadors and young leaders that aim to inspire youth to become more involved in creating a more peaceful world for all.
         </p>
     </div>
-
+    <div class="col-md-12">
+        <h3>School Growth</h3>
+    </div>
+    <div class="col-md-6">
+        <div id="schoolStudentGrowth"></div>
+    </div>
 </div>
