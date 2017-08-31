@@ -187,11 +187,14 @@
     <Content Include="images\email.png" />
     <Content Include="images\ita_logo.png" />
     <Content Include="images\location.jpg" />
-    <Content Include="images\non-discrimination-policy.jpg" />
+    <Content Include="images\misson.png" />
+    <Content Include="images\non-discrimination-policy.png" />
+    <Content Include="images\nonprofit.jpg" />
     <Content Include="images\phone.png" />
     <Content Include="images\registernow.jpg" />
     <Content Include="images\schedule.svg" />
     <Content Include="images\school_tree.png" />
+    <Content Include="images\vision.jpeg" />
     <Content Include="images\welcomeback.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

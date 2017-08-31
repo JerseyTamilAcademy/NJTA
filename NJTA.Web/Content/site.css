@@ -300,6 +300,28 @@ img.small-icon {
     }
 }
 
+/* xs */
+img.med-icon {
+    width: 75px;
+    height: auto;
+    margin: 0.5em;
+}
+
+/* md */
+@media (min-width: 992px) {
+    img.med-icon {
+        width: 100px;
+    }
+}
+
+/* lg */
+@media (min-width: 1200px) {
+    img.med-icon {
+        width: 110px;
+    }
+}
+
+
 ul.circle {
     list-style-type: circle;
 }
