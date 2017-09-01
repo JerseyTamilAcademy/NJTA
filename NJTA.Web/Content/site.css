@@ -414,3 +414,11 @@ ul.simple li {
 .fa-yt-red {
     color: #bb0000;
 }
+
+.nav-bluetabs > li.active > a,
+.nav-bluetabs > li.active > a:hover,
+.nav-bluetabs > li.active > a:focus {
+    color: #fff;
+    background-color: #337ab7;
+    font-weight: bold;
+} 
