@@ -185,6 +185,7 @@
     <Content Include="docs\pdfs\TTS-GuideLines-Students-2015-2016.pdf" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="images\email.png" />
+    <Content Include="images\htc.png" />
     <Content Include="images\ita_logo.png" />
     <Content Include="images\location.jpg" />
     <Content Include="images\misson.png" />
