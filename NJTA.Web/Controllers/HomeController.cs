@@ -27,37 +27,25 @@ namespace NJTA.Web.Controllers
 
         public ActionResult Calendar(string id)
         {
-            string[] supportedLocations = new string[] { "Edison", "Parsippany" };
-            int pos = Array.FindIndex(supportedLocations, t => t.Equals(id, StringComparison.OrdinalIgnoreCase));
-            var location = (pos > -1) ? supportedLocations[pos] : "Edison";
-
+            string location = FindLocation(id);
             ViewBag.Location = location;
-            var viewName = string.Concat("Calendar.", location);
-
             var calendarInfo = GetCalendarInfo(location);
             return View(calendarInfo);
         }
-
+        
         public ActionResult Contact(string id)
         {
-            string[] supportedLocations = new string[] { "Edison", "Parsippany" };
-            int pos = Array.FindIndex(supportedLocations, t => t.Equals(id, StringComparison.OrdinalIgnoreCase));
-            var location = (pos > -1) ? supportedLocations[pos] : "Edison";
-
+            string location = FindLocation(id);
             ViewBag.Location = location;
-            var viewName = string.Concat("Contact.", location);
-            return View(viewName);
+            return View();
         }
 
-        public ActionResult ContactUs(string id)
+        private static string FindLocation(string id)
         {
             string[] supportedLocations = new string[] { "Edison", "Parsippany" };
             int pos = Array.FindIndex(supportedLocations, t => t.Equals(id, StringComparison.OrdinalIgnoreCase));
             var location = (pos > -1) ? supportedLocations[pos] : "Edison";
-
-            ViewBag.Location = location;
-            var viewName = "Contact";
-            return View(viewName);
+            return location;
         }
 
         //Footer Link

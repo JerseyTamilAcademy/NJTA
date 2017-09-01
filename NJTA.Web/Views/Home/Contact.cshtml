@@ -1,28 +1,27 @@
 ﻿@{
-    ViewBag.Title = "Contact Us";
     var location = ViewBag.Location;
+    ViewBag.Title = "Contact Us - " + location;
 }
 
-<h2>@ViewBag.Title - @location</h2>
+<h2>@ViewBag.Title</h2>
 <br />
 
-<div class="col-lg-12">
-    <ul id="contactTab" class="nav nav-tabs nav-justified">
-        <li class="@(string.Compare(location,"edison",true) == 0 ? "active" : "")">
-            <a href="#edison" data-toggle="tab">Edison</a>
-        </li>
-        <li class="@(string.Compare(location,"parsippany",true) == 0 ? "active" : "")">
-            <a href="#parsippany" data-toggle="tab">Parsippany</a>
-        </li>
-    </ul>
+<ul class="nav nav-tabs nav-bluetabs">
+    <li class="@(string.Compare(location, "edison", true) == 0 ? "active" : "")">
+        <a href="@Url.Action("Contact", "Home", new { id = "Edison" })">Edison</a>
+    </li>
+    <li class="@(string.Compare(location, "parsippany", true) == 0 ? "active" : "")">
+        <a href="@Url.Action("Contact", "Home", new { id = "Parsippany" })">Parsippany</a>
+    </li>
+</ul>
 
-    <div id="contactTabContent" class="tab-content">
-        <div class="tab-pane fade @(string.Compare(location,"edison",true) == 0 ? "active in" : "")" id="edison">
-            @Html.Partial("_Contact.Edison")
-        </div>
-
-        <div class="tab-pane fade @(string.Compare(location,"parsippany",true) == 0 ? "active in" : "")" id="parsippany">
-            @Html.Partial("_Contact.Parsippany")
-        </div>
-    </div>
-</div>
+@{ 
+    if (location == "Parsippany")
+    {
+        @Html.Partial("_Contact.Parsippany");
+    }
+    else
+    {
+        @Html.Partial("_Contact.Edison");
+    }
+}
