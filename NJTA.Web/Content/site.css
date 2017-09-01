@@ -24,6 +24,19 @@ body {
 
 .navbar-brand {
     white-space: nowrap;
+    padding-top: 3px;
+}
+
+.navbar-subtext {
+    white-space: nowrap;
+    font-size:13px;
+    padding-top: 2px;
+    padding-bottom:3px;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: auto;
 }
 
 /* Footer Styles */
