@@ -23,10 +23,17 @@
     <div class="col-sm-6">
         <table class="table table-condensed">
             <thead>
+                @{ 
+                    var headerLine = Model[0];
+                    var headerCells = headerLine.Split(',');
+                    var weekNumberHeader = headerCells[1];
+                    var dateHeader = headerCells[2];
+                    var specialNotesHeader = headerCells[3];
+                }
                 <tr class="warning">
-                    <th>Week #</th>
-                    <th>Date (Sat)</th>
-                    <th>Special Note</th>
+                    <th>@weekNumberHeader</th>
+                    <th>@dateHeader</th>
+                    <th>@specialNotesHeader</th>
                 </tr>
             </thead>
             <tbody>
