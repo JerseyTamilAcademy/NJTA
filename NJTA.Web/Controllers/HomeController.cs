@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Web.Mvc;
 
 namespace NJTA.Web.Controllers
 {
@@ -29,17 +30,25 @@ namespace NJTA.Web.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Contact(string id)
         {
-            return View();
+            string[] supportedLocations = new string[] { "Edison", "Parsippany" };
+            int pos = Array.FindIndex(supportedLocations, t => t.Equals(id, StringComparison.OrdinalIgnoreCase));
+            var location = (pos > -1) ? supportedLocations[pos] : "Edison";
+
+            ViewBag.Location = location;
+            var viewName = string.Concat("Contact.", location);
+            return View(viewName);
         }
 
         public ActionResult ContactUs(string id)
         {
-            if (string.IsNullOrEmpty(id))
-                id = "edison";
-            var actionName = RouteData.Values["action"].ToString();
-            var viewName = string.Concat(actionName, ".", id);
+            string[] supportedLocations = new string[] { "Edison", "Parsippany" };
+            int pos = Array.FindIndex(supportedLocations, t => t.Equals(id, StringComparison.OrdinalIgnoreCase));
+            var location = (pos > -1) ? supportedLocations[pos] : "Edison";
+
+            ViewBag.Location = location;
+            var viewName = "Contact";
             return View(viewName);
         }
 

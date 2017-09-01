@@ -1,148 +1,28 @@
 ﻿@{
     ViewBag.Title = "Contact Us";
+    var location = ViewBag.Location;
 }
 
-<h2>Contact Us</h2>
+<h2>@ViewBag.Title - @location</h2>
 <br />
 
 <div class="col-lg-12">
     <ul id="contactTab" class="nav nav-tabs nav-justified">
-        <li class="active">
+        <li class="@(string.Compare(location,"edison",true) == 0 ? "active" : "")">
             <a href="#edison" data-toggle="tab">Edison</a>
         </li>
-        <li class="">
+        <li class="@(string.Compare(location,"parsippany",true) == 0 ? "active" : "")">
             <a href="#parsippany" data-toggle="tab">Parsippany</a>
         </li>
     </ul>
 
     <div id="contactTabContent" class="tab-content">
-        <div class="tab-pane fade active in" id="edison">
-            <div class="row">
-                <div class="col-md-5">
-                    <br />
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="~/images/phone.png" alt="Phone" class="small-icon" />
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Phone</h4>
-                                    <a href="tel:+17326594125">(732) 659-4125</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="~/images/email.png" alt="Email" class="small-icon" />
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Email</h4>
-                                    <a href="mailto:tamilschool.edison@gmail.com">tamilschool.edison@gmail.com</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="~/images/schedule.svg" alt="Schedule" class="small-icon" />
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Schedule</h4>
-                                    Every Saturday 3:00 PM - 4:30 PM
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="~/images/location.jpg" alt="Location" class="small-icon" />
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Location</h4>
-                                    Thomas Jefferson Middle School<br />
-                                    450 Division Street<br />
-                                    Edison, NJ 08817
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br /><br />
-                    <p>
-                        Though email is preferable, you can reach us in either of the ways. Please leave us a voice mail in case we are unable to respond and one of the team member will get back to you.
-                    </p>
-                </div>
-                <div class="col-md-7">
-                    <br />
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.1518982117823!2d-74.41097568471471!3d40.51613355751208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c7de4abdeda7%3A0x7d8954d1ba9bdf0a!2sThomas+Jefferson+Middle+School!5e0!3m2!1sen!2sus!4v1473479497581" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-            </div>
+        <div class="tab-pane fade @(string.Compare(location,"edison",true) == 0 ? "active in" : "")" id="edison">
+            @Html.Partial("_Contact.Edison")
         </div>
 
-        <div class="tab-pane fade" id="parsippany">
-            <div class="row">
-                <div class="col-md-5">
-                    <br />
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="~/images/phone.png" alt="Phone" class="small-icon" />
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Phone</h4>
-                                    <a href="tel:+19737979286">(973) 797-9286</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="~/images/email.png" alt="Email" class="small-icon" />
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Email</h4>
-                                    <a href="mailto:tamilschool.edison@gmail.com">tamilschool.parsippany@gmail.com</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="~/images/schedule.svg" alt="Schedule" class="small-icon" />
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Schedule</h4>
-                                    Every Sunday 2:00 PM - 3:30 PM
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="~/images/location.jpg" alt="Location" class="small-icon" />
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Location</h4>
-                                    Parsippany Plaza,<br />
-                                    378 US 46 West, (Next to Edwards Rd/US 46 Junction)<br />
-                                    Parsippany, NJ 07054
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br /><br />
-                    <p>
-                        Though email is preferable, you can reach us in either of the ways. Please leave us a voice mail in case we are unable to respond and one of the team member will get back to you.
-                    </p>
-                </div>
-                <div class="col-md-7">
-                    <br />
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.5385154418223!2d-74.36264988459051!3d40.860054779316165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c30777d7d43b6f%3A0x737c18a39a4079c4!2s378+US-46%2C+Parsippany%2C+NJ+07054!5e0!3m2!1sen!2sus!4v1502584607899" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-            </div>
+        <div class="tab-pane fade @(string.Compare(location,"parsippany",true) == 0 ? "active in" : "")" id="parsippany">
+            @Html.Partial("_Contact.Parsippany")
         </div>
-
     </div>
 </div>

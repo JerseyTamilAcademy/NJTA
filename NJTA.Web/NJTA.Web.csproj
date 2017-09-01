@@ -226,7 +226,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\ContactUs.Edison.cshtml" />
+    <Content Include="Views\Home\Contact.Edison.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Navigation.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
@@ -236,12 +236,14 @@
     <Content Include="Views\Shared\_Carousel.cshtml" />
     <Content Include="Views\Registration\Index.cshtml" />
     <Content Include="Views\Home\Videos.cshtml" />
-    <Content Include="Views\Home\ContactUs.Parsippany.cshtml" />
+    <Content Include="Views\Home\Contact.Parsippany.cshtml" />
     <Content Include="Views\Home\Team.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\School\Edison.cshtml" />
     <Content Include="Views\Home\Calendar.cshtml" />
     <Content Include="Views\Home\_Calendar.Edison.cshtml" />
+    <Content Include="Views\Home\_Contact.Edison.cshtml" />
+    <Content Include="Views\Home\_Contact.Parsippany.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

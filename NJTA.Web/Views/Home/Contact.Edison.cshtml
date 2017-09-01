@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Contact Us - Edison";
+}
+
+<h2>@ViewBag.Title</h2>
+<br/>
+<ul class="nav nav-tabs nav-bluetabs">
+    <li class="active"><a href="">Edison</a></li>
+    <li><a href="@Url.Action("Contact", "Home", new { id = "Parsippany" })">Parsippany</a></li>
+</ul>
+
+@Html.Partial("_Contact.Edison")
