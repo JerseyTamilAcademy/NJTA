@@ -25,9 +25,17 @@ namespace NJTA.Web.Controllers
             return View();
         }
 
-        public ActionResult Calendar()
+        public ActionResult Calendar(string id)
         {
-            return View();
+            string[] supportedLocations = new string[] { "Edison", "Parsippany" };
+            int pos = Array.FindIndex(supportedLocations, t => t.Equals(id, StringComparison.OrdinalIgnoreCase));
+            var location = (pos > -1) ? supportedLocations[pos] : "Edison";
+
+            ViewBag.Location = location;
+            var viewName = string.Concat("Calendar.", location);
+
+            var calendarInfo = GetCalendarInfo(location);
+            return View(calendarInfo);
         }
 
         public ActionResult Contact(string id)
@@ -75,8 +83,16 @@ namespace NJTA.Web.Controllers
 
         public ActionResult VolunteersSignUp()
         {
-            ViewBag.Title = "Volunteers SignUp";
-            return View("");
+            return View();
+        }
+
+
+        private string[] GetCalendarInfo(string location)
+        {
+            var filePath = @"~/App_Data/Calendar." + location + ".csv";
+            var fileServerPath = Server.MapPath(filePath);
+            var calendarContent = System.IO.File.ReadAllText(fileServerPath).Split('\n');
+            return calendarContent;
         }
 
     }

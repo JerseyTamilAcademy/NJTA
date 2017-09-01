@@ -1,26 +1,62 @@
-﻿@{
-    ViewBag.Title = "Calendar";
+﻿@model string[]
+
+@{
+    ViewBag.Title = "Calendar - " + ViewBag.Location;
+    var location = ViewBag.Location;
 }
 
 <h2>@ViewBag.Title</h2>
+<h4>Academic Year 2017-18</h4>
 <br />
 
-<div class="col-lg-12">
-    <ul id="calendarTab" class="nav nav-tabs nav-bluetabs">
-        <li class="active">
-            <a href="#edison" data-toggle="tab">Edison</a>
-        </li>
-        <li class="">
-            <a href="#parsippany" data-toggle="tab">Parsippany</a>
-        </li>
-    </ul>
-
-    <div id="calendarTabContent" class="tab-content">
-        <div class="tab-pane fade active in" id="edison">
-            @Html.Partial("_Calendar.Edison")
+<ul class="nav nav-tabs nav-bluetabs">
+    <li class="@(string.Compare(location,"edison",true) == 0 ? "active" : "")">
+        <a href="@Url.Action("Calendar", "Home", new { id = "Edison" })">Edison</a>
+    </li>
+    <li class="@(string.Compare(location,"parsippany",true) == 0 ? "active" : "")">
+        <a href="@Url.Action("Calendar", "Home", new { id = "Parsippany" })">Parsippany</a>
+    </li>
+</ul>
+<br/>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="warning">
+                        <th>Week #</th>
+                        <th>Date (Sat)</th>
+                        <th>Special Note</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var lineItem in Model.Skip(1))
+                    {
+                        var dataCells = lineItem.Split(',');
+                        var style = dataCells[0];
+                        if (style == "success")
+                        {
+                            <tr class="success">
+                                <td colspan="3" class="text-center"><b>@dataCells[1]</b></td>
+                            </tr>
+                        }
+                        else
+                        {
+                            var weekNumber = dataCells[1];
+                            var date = dataCells[2];
+                            var specialNotes = dataCells[3];
+                            <tr class="@(style)">
+                                <td>@weekNumber</td>
+                                <td>@date</td>
+                                <td>@specialNotes</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
         </div>
-        <div class="tab-pane fade" id="parsippany">
-            
-        </div>
+    </div>
+    <div class="hidden-xs hidden-sm hidden-md hidden-print col-sm-6">
+        
     </div>
 </div>

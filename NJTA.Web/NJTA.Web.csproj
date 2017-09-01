@@ -184,6 +184,8 @@
     <Content Include="docs\pdfs\CTA-School-Registration-Rules-And-Regulation.pdf" />
     <Content Include="docs\pdfs\CTA-School-Waiver-Policy.pdf" />
     <Content Include="docs\pdfs\TTS-GuideLines-Students-2015-2016.pdf" />
+    <Content Include="App_Data\Calendar.Edison.csv" />
+    <Content Include="App_Data\Calendar.Parsippany.csv" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="images\email.png" />
     <Content Include="images\htc.png" />
@@ -242,15 +244,12 @@
     <Content Include="Views\Home\Team.cshtml" />
     <Content Include="Views\School\Edison.cshtml" />
     <Content Include="Views\Home\Calendar.cshtml" />
-    <Content Include="Views\Home\_Calendar.Edison.cshtml" />
     <Content Include="Views\Home\_Contact.Edison.cshtml" />
     <Content Include="Views\Home\_Contact.Parsippany.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\VolunteersSignUp.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
