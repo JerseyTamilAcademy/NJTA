@@ -246,6 +246,7 @@
     <Content Include="Views\Home\_Contact.Edison.cshtml" />
     <Content Include="Views\Home\_Contact.Parsippany.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\VolunteersSignUp.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

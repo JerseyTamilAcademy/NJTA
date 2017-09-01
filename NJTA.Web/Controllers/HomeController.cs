@@ -76,7 +76,7 @@ namespace NJTA.Web.Controllers
         public ActionResult VolunteersSignUp()
         {
             ViewBag.Title = "Volunteers SignUp";
-            return View("ComingSoon");
+            return View("");
         }
 
     }
