@@ -187,6 +187,7 @@
     <Content Include="App_Data\Calendar.Edison.csv" />
     <Content Include="App_Data\Calendar.Parsippany.csv" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="images\501C.jpg" />
     <Content Include="images\email.png" />
     <Content Include="images\htc.png" />
     <Content Include="images\ita_logo.png" />
