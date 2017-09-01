@@ -21,41 +21,39 @@
 
 <div class="row">
     <div class="col-sm-6">
-        <div class="table-responsive">
-            <table class="table">
-                <thead>
-                    <tr class="warning">
-                        <th>Week #</th>
-                        <th>Date (Sat)</th>
-                        <th>Special Note</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var lineItem in Model.Skip(1))
+        <table class="table table-condensed">
+            <thead>
+                <tr class="warning">
+                    <th>Week #</th>
+                    <th>Date (Sat)</th>
+                    <th>Special Note</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var lineItem in Model.Skip(1))
+                {
+                    var dataCells = lineItem.Split(',');
+                    var style = dataCells[0];
+                    if (style == "success")
                     {
-                        var dataCells = lineItem.Split(',');
-                        var style = dataCells[0];
-                        if (style == "success")
-                        {
-                            <tr class="success">
-                                <td colspan="3" class="text-center"><b>@dataCells[1]</b></td>
-                            </tr>
-                        }
-                        else
-                        {
-                            var weekNumber = dataCells[1];
-                            var date = dataCells[2];
-                            var specialNotes = dataCells[3];
-                            <tr class="@(style)">
-                                <td>@weekNumber</td>
-                                <td>@date</td>
-                                <td>@specialNotes</td>
-                            </tr>
-                        }
+                        <tr class="success">
+                            <td colspan="3" class="text-center"><b>@dataCells[1]</b></td>
+                        </tr>
                     }
-                </tbody>
-            </table>
-        </div>
+                    else
+                    {
+                        var weekNumber = dataCells[1];
+                        var date = dataCells[2];
+                        var specialNotes = dataCells[3];
+                        <tr class="@(style)">
+                            <td>@weekNumber</td>
+                            <td>@date</td>
+                            <td>@specialNotes</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
     </div>
     <div class="hidden-xs hidden-sm hidden-md hidden-print col-sm-6">
         
