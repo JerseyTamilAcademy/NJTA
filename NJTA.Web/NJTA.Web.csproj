@@ -248,6 +248,7 @@
     <Content Include="Views\Home\_Contact.Parsippany.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\VolunteersSignUp.cshtml" />
+    <Content Include="Views\Resources\Guidelines.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

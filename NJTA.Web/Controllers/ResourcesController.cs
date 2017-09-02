@@ -6,8 +6,7 @@ namespace NJTA.Web.Controllers
     {
         public ActionResult Guidelines()
         {
-            ViewBag.Title = "Guidelines";
-            return View("ComingSoon");
+            return View();
         }
         public ActionResult ClassInfo()
         {
