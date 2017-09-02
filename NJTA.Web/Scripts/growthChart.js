@@ -2,6 +2,11 @@
     chart: {
         type: 'column'
     },
+    credits: {
+        enabled: true,
+        text: '',
+        href: 'javascript:window.open("http://www.highcharts.com/", "_blank")'
+    },
     exporting: {
         enabled: false
     },
