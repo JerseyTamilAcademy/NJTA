@@ -292,6 +292,10 @@ a:hover {
     font-weight: bold;
 }
 
+.text-small{
+    font-size: small;
+}
+
 /* xs */
 img.small-icon {
     width: 50px;
