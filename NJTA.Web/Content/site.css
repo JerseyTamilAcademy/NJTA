@@ -424,12 +424,16 @@ ul.simple li {
     margin-right: 0;
 }
 
-.fa-fb-blue {
+.fa-blue {
     color: #3B5998;
 }
 
-.fa-yt-red {
+.fa-red {
     color: #bb0000;
+}
+
+.fa-gold {
+    color: gold;
 }
 
 .nav-bluetabs > li.active > a,
