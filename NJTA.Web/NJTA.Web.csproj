@@ -200,6 +200,7 @@
     <Content Include="images\registernow.jpg" />
     <Content Include="images\schedule.svg" />
     <Content Include="images\school_tree.png" />
+    <Content Include="images\tts_logo.png" />
     <Content Include="images\vision.jpeg" />
     <Content Include="images\welcomeback.jpg" />
     <Content Include="Scripts\bootstrap.js" />

@@ -2,46 +2,50 @@
     <div class="container text-center">
         <div class="row">
             <div class="col-lg-12">
-                <div class="col-md-4  text-left">
-                    <h3>Branches</h3>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <a class="links" href="@Url.Action("Contact", "Home", new { id = "Edison" })"><h4>Edison</h4></a>
-                            Timings: Sat 3 PM - 4:30 PM <br /><br />
-                        </div>
-                        <div class="col-md-12">
-                            <a class="links" href="@Url.Action("Contact", "Home", new { id = "Parsippany" })"><h4>Parsippany</h4></a>
-                            Timings: Sun 2 PM - 3:30 PM <br /><br />
+                <div class="col-md-2 text-center">
+                    <br/>
+                    <img src="~/images/tts_logo.png" alt="TTS Logo" class="img-responsive" />
+                </div>
+                <div class="col-md-3  text-left">
+                        <h3>Branches</h3>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a class="links" href="@Url.Action("Contact", "Home", new { id = "Edison" })"><h4>Edison</h4></a>
+                                Timings: Sat 3 PM - 4:30 PM <br /><br />
+                            </div>
+                            <div class="col-md-12">
+                                <a class="links" href="@Url.Action("Contact", "Home", new { id = "Parsippany" })"><h4>Parsippany</h4></a>
+                                Timings: Sun 2 PM - 3:30 PM <br /><br />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4   text-left">
-                    <h3>Quick Links</h3>
-                    <ul class="link-list">
-                        <li>
-                            <i class="fa fa-newspaper-o fa-lg fa-blue" aria-hidden="true"></i>
-                            @Html.ActionLink("News", "News", "Home")
-                        </li>
-                        <li>
-                            <i class="fa fa-calendar-plus-o fa-lg fa-blue" aria-hidden="true"></i>
-                            @Html.ActionLink("Events", "Events", "Home")
-                        </li>
-                        <li>
-                            <i class="fa fa-picture-o fa-lg fa-blue" aria-hidden="true"></i>
-                            @Html.ActionLink("Photo Galleries", "Photos", "Home")
-                        </li>
-                        <li>
-                            <i class="fa fa-video-camera fa-lg fa-blue" aria-hidden="true"></i>
-                            @Html.ActionLink("Video Albums", "Videos", "Home")
-                        </li>
-                    </ul>
-                </div>
+                <div class="col-md-3   text-left">
+                        <h3>Quick Links</h3>
+                        <ul class="link-list">
+                            <li>
+                                <i class="fa fa-newspaper-o fa-lg fa-blue" aria-hidden="true"></i>
+                                @Html.ActionLink("News", "News", "Home")
+                            </li>
+                            <li>
+                                <i class="fa fa-calendar-plus-o fa-lg fa-blue" aria-hidden="true"></i>
+                                @Html.ActionLink("Events", "Events", "Home")
+                            </li>
+                            <li>
+                                <i class="fa fa-picture-o fa-lg fa-blue" aria-hidden="true"></i>
+                                @Html.ActionLink("Photo Galleries", "Photos", "Home")
+                            </li>
+                            <li>
+                                <i class="fa fa-video-camera fa-lg fa-blue" aria-hidden="true"></i>
+                                @Html.ActionLink("Video Albums", "Videos", "Home")
+                            </li>
+                        </ul>
+                    </div>
                 <div class="col-md-4 text-left">
-                    <h3 class="text-nowrap">Interested in Volunteering ?</h3>
-                    <p class="text-justify">We constantly need more volunteers to help us in various activities including teaching. If you are interested and want to be part of our team, please sign up using the link below.</p>
-                    <a href="@Url.Action("VolunteersSignUp", "Home", null)" class="btn btn-primary" role="button">Please sign up ...</a>
+                        <h3 class="text-nowrap">Interested in Volunteering ?</h3>
+                        <p class="text-justify">We constantly need more volunteers to help us in various activities including teaching. If you are interested and want to be part of our team, please sign up using the link below.</p>
+                        <a href="@Url.Action("VolunteersSignUp", "Home", null)" class="btn btn-primary" role="button">Please sign up ...</a>
+                    </div>
                 </div>
-            </div>
         </div>
         <hr class="divider">
         <div class="row vcenter">
