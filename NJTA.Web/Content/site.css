@@ -54,10 +54,23 @@ body {
     padding-bottom: 22px;
 }
 
+.navbar-big .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .navbar-big .navbar-toggle {
     padding: 10px;
     margin: 15px 15px 15px 0;
 }
+
+@media (max-width: 767px) {
+    .navbar-big .nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
 
 /* Footer Styles */
 footer {
