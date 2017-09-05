@@ -110,16 +110,31 @@ header.carousel {
 }
 
 header.carousel .item,
-header.carousel .item.active,
+header.carousel .item.active {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 100%;
+}
+
 header.carousel .carousel-inner {
     height: 100%;
 }
 
-header.carousel .fill {
+header.carousel .carousel-image {
     width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
+}
+
+header.carousel .carousel-caption {
+    color: #ffffff;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+header.carousel .carousel-caption-header {
+    color: #ffff00;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 .rounded-carousel {
