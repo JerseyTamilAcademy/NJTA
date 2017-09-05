@@ -34,14 +34,16 @@ body {
 
 .navbar-brandtext {
     white-space: nowrap;
-    padding-left: 15px;
-    padding-top:10px;
+    display: inline-block;
+    padding-top: 10px;
 }
 
 .navbar-subtext {
-    font-size:13px;
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 13px;
     padding-top: 2px;
-    padding-bottom:3px;
+    padding-bottom: 3px;
 }
 
 .navbar-big .navbar-brand {
