@@ -106,7 +106,7 @@ textarea {
 /* Home Page Carousel */
 
 header.carousel {
-    height: 50%;
+    height: auto;
 }
 
 header.carousel .item,
@@ -120,6 +120,12 @@ header.carousel .fill {
     height: 100%;
     background-position: center;
     background-size: cover;
+}
+
+.rounded-carousel {
+    border-radius: 25px;
+    background-color: #008dab;
+    overflow: hidden;
 }
 
 /* 404 Page Styles */
@@ -477,10 +483,4 @@ ul.simple li {
     color: #fff;
     background-color: #337ab7;
     font-weight: bold;
-}
-
-.rounded-carousel {
-    border-radius: 25px;
-    background-color: #008dab;
-    overflow: hidden;
 }
