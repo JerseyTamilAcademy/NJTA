@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 65px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     color: black;
 }
 
@@ -24,19 +24,39 @@ body {
 
 .navbar-brand {
     white-space: nowrap;
-    padding-top: 3px;
+    padding: 0px;
+}
+
+.navbar-brand > img {
+    height: 100%;
+    width: auto;
+}
+
+.navbar-brandtext {
+    white-space: nowrap;
+    padding-left: 15px;
+    padding-top:10px;
 }
 
 .navbar-subtext {
-    white-space: nowrap;
     font-size:13px;
     padding-top: 2px;
     padding-bottom:3px;
 }
 
-.navbar-logo {
-    height: 50px;
-    width: auto;
+.navbar-big .navbar-brand {
+    height: 65px;
+}
+
+/* Value = ( Height - 20 / 2 ) */
+.navbar-big .nav > li > a {
+    padding-top: 23px;
+    padding-bottom: 22px;
+}
+
+.navbar-big .navbar-toggle {
+    padding: 10px;
+    margin: 15px 15px 15px 0;
 }
 
 /* Footer Styles */
