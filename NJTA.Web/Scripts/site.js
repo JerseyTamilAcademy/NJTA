@@ -10,11 +10,10 @@ $(document).ready(function () {
     });
 });
 
-function carouselNormalization() {
-    var items = $('#carousel-id .item'),
+function carouselNormalization(carouselId) {
+    var items = $(carouselId + ' .item'),
         heights = [],
         tallest;
-
     // grab all the slides array, store height, find maximum and set to all items.
     if (items.length) {
         function normalizeHeights() {
@@ -23,7 +22,6 @@ function carouselNormalization() {
             });                                             
 
             tallest = Math.max.apply(null, heights);
-
             items.each(function () {
                 $(this).css('min-height', tallest + 'px');
             });                                             
