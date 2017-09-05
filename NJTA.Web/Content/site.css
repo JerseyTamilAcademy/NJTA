@@ -477,4 +477,10 @@ ul.simple li {
     color: #fff;
     background-color: #337ab7;
     font-weight: bold;
-} 
+}
+
+.rounded-carousel {
+    border-radius: 25px;
+    background-color: #008dab;
+    overflow: hidden;
+}
