@@ -114,7 +114,6 @@ textarea {
 
 header.carousel {
     height: 200px;
-    border-radius: 25px;
     background-color: #008dab;
     overflow: hidden;
 }
@@ -152,7 +151,6 @@ header.carousel .carousel-caption-header {
 @media (max-width: 767px) {
     header.carousel {
         height: 130px;
-        border-radius: 20px;
         background-color: #008dab;
         overflow: hidden;
     }
