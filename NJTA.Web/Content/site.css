@@ -114,7 +114,7 @@ textarea {
 
 header.carousel {
     height: 200px;
-    background-color: #008dab;
+    background-color: #66C0BE;
     overflow: hidden;
 }
 
@@ -148,11 +148,25 @@ header.carousel .carousel-caption-header {
     font-size: 36px;
 }
 
-@media (max-width: 767px) {
+@media (min-width : 768px) and (max-width : 1024px) {
     header.carousel {
         height: 130px;
-        background-color: #008dab;
-        overflow: hidden;
+    }
+
+    header.carousel .carousel-caption {
+        top: 30%;
+        transform: translateY(-30%);
+        bottom: initial;
+    }
+
+    header.carousel .carousel-caption-header {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 767px) {
+    header.carousel {
+        height: 70px;
     }
     header.carousel .carousel-caption {
         top: 20%;
@@ -162,7 +176,6 @@ header.carousel .carousel-caption-header {
     header.carousel .carousel-caption-header {
         font-size: 20px;
     }
-
 }
 
 
