@@ -200,6 +200,7 @@
     <Content Include="images\misson.png" />
     <Content Include="images\non-discrimination-policy.png" />
     <Content Include="images\nonprofit.jpg" />
+    <Content Include="images\noSchoolReminder.jpg" />
     <Content Include="images\phone.png" />
     <Content Include="images\registernow.jpg" />
     <Content Include="images\schedule.svg" />
@@ -255,6 +256,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\VolunteersSignUp.cshtml" />
     <Content Include="Views\Resources\Guidelines.cshtml" />
+    <Content Include="Views\Shared\_FavIcon.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
