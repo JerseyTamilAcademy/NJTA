@@ -36,15 +36,15 @@ info,,31-Mar-18,Holiday - Spring Recess
 info,,7-Apr-18,Holiday - Spring Recess
 ,23,14-Apr-18,
 ,24,21-Apr-18,
-,25,28-Apr-18,
-,,29-Apr-18,Annual Day - Tentative
+danger,,28-Apr-18,Cancelled
+info,25,29-Apr-18,Make up for 28-Apr
 ,26,5-May-18,Test #7
-,27,12-May-18,
-,28,19-May-18,
-info,,26-May-18,Holiday - Memorial Day
-,29,2-Jun-18,
-,30,9-Jun-18,Test #8 - Final Test
-danger,31,16-Jun-18,Last Day of School
+info,,12-May-18, Annual Day
+,27,19-May-18,
+info,,26-May-18,NJ's All Tamil School Picnic
+,28,2-Jun-18,
+,29,9-Jun-18,Test #8 - Final Test
+danger,30,16-Jun-18,Last Day of School / Graducation Day
 success,Term 3 Ends ,,
-,,23-Jun-18,Annual Picnic
+,,26-May-18,NJ's All Tamil School Picnic
 ,,Jan,Parent-Teacher Conf Month
