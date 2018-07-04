@@ -217,6 +217,7 @@
     <Content Include="images\noticeIcon.png" />
     <Content Include="images\phone.png" />
     <Content Include="images\pongal.jpg" />
+    <Content Include="images\register.jpg" />
     <Content Include="images\registernow.jpg" />
     <Content Include="images\schedule.svg" />
     <Content Include="images\school_tree.png" />
