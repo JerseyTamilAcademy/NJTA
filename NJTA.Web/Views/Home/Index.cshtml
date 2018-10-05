@@ -1,7 +1,6 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
 <br />
 
 @Html.Partial("_Carousel")
@@ -41,11 +40,11 @@
             <div class="col-md-12">
                 <div class="media">
                     <div class="media-left">
-                        <img src="~/images/welcomeback.jpg" alt="Notice" class="small-icon"/>
+                        <img src="~/images/announcement.png" alt="Notice" class="small-icon" />
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading" style="color: red; font-weight: bold">
-                            Edison Tamil School is now on Sunday 3PM - 4:30 PM
+                            Classes on 10/07 are cancelled  due to venue unavailability. Next class will be on 10/14
                         </h4>
                     </div>
                 </div>
@@ -53,35 +52,50 @@
             <div class="col-md-12">
                 <div class="media">
                     <div class="media-left">
-                        <img src="~/images/location.jpg" alt="Notice" class="small-icon" />
+                        <img src="~/images/welcomeback.jpg" alt="Notice" class="small-icon"/>
                     </div>
                     <div class="media-body">
-                        <a href="@Url.Action("Contact", "Home", new { id = "Edison" })" title="Location Changed" style="color: purple; font-weight: bold">
+                        <h4 class="media-heading" style="color: blueviolet; font-weight: bold">
+                            Edison Tamil School is now on Sunday 3PM - 4:30 PM at
+                            J.P.Steven High School
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div class="col-md-12">
+                <div class="media">
+                    <div class="media-left">
+                        <img src="~/images/location.jpg" alt="Notice" class="small-icon"/>
+                    </div>
+                    <div class="media-body">
+                        <a href="@Url.Action("Contact", "Home", new {id = "Edison"})" title="Location Changed" style="color: purple; font-weight: bold">
                             <h4 class="media-heading" style="color: purple; font-weight: bold">
-                                Edison Tamil School  operates in J.P. Steven High School
+                                Edison Tamil School operates in J.P. Steven High School
                             </h4>
                         </a>
                     </div>
                 </div>
             </div>
+            -->
             <div class="col-md-12">
                 <div class="media">
                     <div class="media-left">
 
                         <a href="@Url.Action("Index", "Registration", null)" title="Registration">
-                            <img src="~/images/registernow.jpg" alt="Register" class="small-icon" />
+                            <img src="~/images/registernow.jpg" alt="Register" class="small-icon"/>
                         </a>
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">
                             <a href="@Url.Action("Index", "Registration", null)" title="Registration" style="color: purple; font-weight: bold">
                                 <i class="fa fa-bookmark fa-lg fa-red" aria-hidden="true"></i>
-                                Limited enrollment accepted till 9/30 for 2018-19 academic year at Edison<br />
+                                Limited enrollment accepted till 9/30 for 2018-19 academic year at Edison<br/>
                             </a>
                         </h4>
                         <!--
                         <p class="text-left">
-                            <span style="color:#007897"><b>TTS Edison</b></span> - Limited Enrollments accepted until 9/30. Call/Email before registering directly<br />
+                            <span style="color:#007897"><b>TTS Edison</b></span> - Limited Enrollments accepted until 9/30. Call/Email before registering directly<br/>
                             <span style="color:#007897"><b>TTS Parsippany</b></span> - Accepting enrollments for all grades upto Grade 1
                         </p>
                         -->
@@ -90,43 +104,43 @@
             </div>
 
             <!--
-    <div class="col-md-12">
-    <div class="media">
-    <div class="media-left">
-        <img src="~/images/annualDay.jpg" alt="Annual Day" class="small-icon"/>
-    </div>
-    <div class="media-body">
-    <h4 class="media-heading" style="color: blue">8th Annual Day</h4>
-    <!-- 8-வது ஆண்டு விழா --/>
-    <h4 class="media-heading">May-12 9 AM - 6:30 PM</h4>
-    <br/>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-12">
-    <div class="media">
-    <div class="media-left">
-        <img src="~/images/funDay.jpg" alt="Annual Day" class="small-icon"/>
-    </div>
-    <div class="media-body">
-    <h4 class="media-heading" style="color: blue">Summer Picnic 2018</h4>
-    <!-- வேனில் விழா --/>
-    <h4 class="media-heading">May-26 12 PM - 6 PM</h4>
-    <br/>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-12">
-        <div class="media">
+            <div class="col-md-12">
+            <div class="media">
             <div class="media-left">
-                <img src="~/images/register.jpg" alt="Class Registration" class="small-icon"/>
+                <img src="~/images/annualDay.jpg" alt="Annual Day" class="small-icon"/>
             </div>
             <div class="media-body">
-                <h4 class="media-heading" style="color: blue">Registration for 2018-19 will open in mid to late July</h4>
+            <h4 class="media-heading" style="color: blue">8th Annual Day</h4>
+            <!-- 8-வது ஆண்டு விழா --/>
+            <h4 class="media-heading">May-12 9 AM - 6:30 PM</h4>
+            <br/>
             </div>
-        </div>
-    </div>
-    -->
+            </div>
+            </div>
+            <div class="col-md-12">
+            <div class="media">
+            <div class="media-left">
+                <img src="~/images/funDay.jpg" alt="Annual Day" class="small-icon"/>
+            </div>
+            <div class="media-body">
+            <h4 class="media-heading" style="color: blue">Summer Picnic 2018</h4>
+            <!-- வேனில் விழா --/>
+            <h4 class="media-heading">May-26 12 PM - 6 PM</h4>
+            <br/>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-12">
+                <div class="media">
+                    <div class="media-left">
+                        <img src="~/images/register.jpg" alt="Class Registration" class="small-icon"/>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading" style="color: blue">Registration for 2018-19 will open in mid to late July</h4>
+                    </div>
+                </div>
+            </div>
+                -->
         </div>
     </div>
 </div>
