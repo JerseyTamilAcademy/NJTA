@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.2.3.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.3.0\build\Microsoft.Net.Compilers.props')" />
@@ -192,6 +192,8 @@
     <Content Include="App_Data\Calendar.Parsippany.2017.csv" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="images\2017_RegFlyer.jpg" />
+    <Content Include="images\2018\Gaja_01.jpg" />
+    <Content Include="images\2018\Gaja_02.jpeg" />
     <Content Include="images\501C.jpg" />
     <Content Include="images\announcement.png" />
     <Content Include="images\annualDay.jpg" />
@@ -223,11 +225,15 @@
     <Content Include="images\register.jpg" />
     <Content Include="images\registernow.jpg" />
     <Content Include="images\schedule.svg" />
+    <Content Include="images\school_closed_snow.jpg" />
     <Content Include="images\school_tree.png" />
+    <Content Include="images\thanksgiving.png" />
     <Content Include="images\theatre.jpg" />
     <Content Include="images\tts_kk_msg.jpg" />
     <Content Include="images\tts_logo.png" />
     <Content Include="images\vision.jpeg" />
+    <Content Include="images\volunteer.jpeg" />
+    <Content Include="images\volunteer_01.jpeg" />
     <Content Include="images\welcomeback.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
