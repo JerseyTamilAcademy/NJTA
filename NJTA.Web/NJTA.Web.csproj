@@ -206,12 +206,14 @@
     <Content Include="images\celebrate.png" />
     <Content Include="images\christmas.jpg" />
     <Content Include="images\email.png" />
+    <Content Include="images\events\NJTS_PongalBanner.jpg" />
     <Content Include="images\Flyer_AD_2018.jpeg" />
     <Content Include="images\Flyer_Graduation_2018.jpg" />
     <Content Include="images\Flyer_Picnic_2018.jpg" />
     <Content Include="images\funDay.jpg" />
     <Content Include="images\graduationDay.jpg" />
     <Content Include="images\graduationDay01.jpg" />
+    <Content Include="images\HappyNewYear.jpg" />
     <Content Include="images\htc.png" />
     <Content Include="images\ita_logo.png" />
     <Content Include="images\location.jpg" />
