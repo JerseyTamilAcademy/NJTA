@@ -190,6 +190,9 @@
     <Content Include="App_Data\Calendar.Parsippany.csv" />
     <Content Include="App_Data\Calendar.Edison.2017.csv" />
     <Content Include="App_Data\Calendar.Parsippany.2017.csv" />
+    <Content Include="docs\pdfs\2019.KidsContest\2019_KidsContest_Level1.pdf" />
+    <Content Include="docs\pdfs\2019.KidsContest\2019_KidsContest_Level2.pdf" />
+    <Content Include="docs\pdfs\2019.KidsContest\2019_KidsContest_Level3.pdf" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="images\2017_RegFlyer.jpg" />
     <Content Include="images\2018\Gaja_01.jpg" />
