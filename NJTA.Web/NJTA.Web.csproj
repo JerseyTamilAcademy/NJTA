@@ -213,6 +213,8 @@
     <Content Include="images\celebrate.png" />
     <Content Include="images\christmas.jpg" />
     <Content Include="images\email.png" />
+    <Content Include="images\events\2019_GraduationDay.jpg" />
+    <Content Include="images\events\2019_IATS_PongalEvent_01.jpg" />
     <Content Include="images\events\2019_Kids-Competition_01.jpeg" />
     <Content Include="images\Flyer_AD_2018.jpeg" />
     <Content Include="images\Flyer_AD_2019.jpeg" />
