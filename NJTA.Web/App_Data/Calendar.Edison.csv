@@ -1,46 +1,48 @@
 Status,Week #,Date (Sun),Special Note
 success,Term 1 Begins,,
-danger,1,15-Sep-18,First Day of School
-info,,23-Sep-18,Holiday
-,2,30-Sep-18,
-,3,7-Oct-18,Test #1
-,4,14-Oct-18,
-,5,21-Oct-18,
-,6,28-Oct-18,
-,7,4-Nov-18,Test #2
-,8,11-Nov-18,
-,9,18-Nov-18,Parent-Teacher Group Meeting
-info,,25-Nov-18,Holiday - Thanksgiving
-,10,2-Dec-18,
-,11,9-Dec-18,
-,12,16-Dec-18,Test #3 
+danger,1,8-Sep-19,First Day of School
+,2,15-Sep-19,
+,3,22-Sep-19,
+info,,29-Sep-19,Holiday
+,4,6-Oct-19,Test #1
+,5,13-Oct-19,
+,6,20-Oct-19,
+,7,27-Oct-19,
+,8,3-Nov-19,Test #2
+,9,10-Nov-19,Parent-Teacher Group Meeting
+,10,17-Nov-19,
+,11,24-Nov-19,
+info,,1-Dec-19,Holiday - Thanksgiving
+,12,8-Dec-19,Test #3 
 success,Term 1 Ends & Term 2 Begins,,
-info,,23-Dec-18,Holiday - Christmas
-info,,30-Dec-18,Holiday - New Year
-,13,6-Jan-19,
-,14,13-Jan-19,
-,15,20-Jan-19,
-,16,27-Jan-19,
-,17,3-Feb-19,Test #4
-,18,10-Feb-19,
-,19,17-Feb-19,
-,20,24-Feb-19,
-,21,3-Mar-19,
-,22,10-Mar-19,Test #5
+,13,15-Dec-19,
+info,,22-Dec-19,Holiday - Christmas
+info,,29-Dec-19,Holiday - New Year
+,14,5-Jan-20,
+,15,12-Jan-20,
+,16,19-Jan-20,Test #4
+,17,26-Jan-20,
+,18,2-Feb-20,
+,19,9-Feb-20,
+,20,16-Feb-20,Test #5
 success,Term 2 Ends & Term 3 Begins,,
-,23,17-Mar-19,
-,24,24-Mar-19,
-,25,31-Mar-19,
-,26,7-Apr-19,Test #6
-,27,14-Apr-19,
-info,,21-Apr-19,Holiday - Spring Recess
-info,,28-Apr-19,Holiday - Spring Recess
-,28,5-May-19,
-,29,12-May-19,
-,30,19-May-19,Test #7
-info,,26-May-19,Holiday - Memorial Day
-,31,2-Jun-19,
-,32,9-Jun-19,Final test
-danger,33,15-Jun-19,Graduation Day
+,21,23-Feb-20,
+,22,1-Mar-20,
+,23,8-Mar-20,
+,24,15-Mar-20,Test #6
+,25,22-Mar-20,
+,26,29-Mar-20,
+info,,5-Apr-20,Holiday - Spring Recess
+info,,12-Apr-20,Holiday - Spring Recess
+,27,19-Apr-20,
+danger,,26-Apr-20,Annual Day
+,28,3-May-20,Test #7
+,29,10-May-20,
+,30,17-May-20,
+info,,24-May-20,Holiday - Memorial Day
+,31,31-May-20,
+danger,32,7-Jun-20,Final test
+danger,,14-Jun-20,Graduation Day
 success,Term 3 Ends ,,
+,,,
 ,,Jan,Parent-Teacher Conf Month

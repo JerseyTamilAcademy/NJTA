@@ -6,6 +6,7 @@
 <h2>@ViewBag.Title</h2>
 <br />
 
+<!--
 <ul class="nav nav-tabs nav-bluetabs">
     <li class="@(string.Compare(location, "edison", true) == 0 ? "active" : "")">
         <a href="@Url.Action("Contact", "Home", new { id = "Edison" })">Edison</a>
@@ -14,14 +15,7 @@
         <a href="@Url.Action("Contact", "Home", new { id = "Parsippany" })">Parsippany</a>
     </li>
 </ul>
+-->
 
-@{ 
-    if (location == "Parsippany")
-    {
-        @Html.Partial("_Contact.Parsippany");
-    }
-    else
-    {
-        @Html.Partial("_Contact.Edison");
-    }
-}
+@Html.Partial("_Contact.Edison")
+

@@ -27,13 +27,10 @@ namespace NJTA.Web.Controllers
 
         public ActionResult Calendar(string id)
         {
-            return View("ComingSoon");
-            /*
             string location = FindLocation(id);
             ViewBag.Location = location;
             var calendarInfo = GetCalendarInfo(location);
             return View(calendarInfo);
-            */
         }
         
         public ActionResult Contact(string id)
