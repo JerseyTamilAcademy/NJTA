@@ -42,7 +42,7 @@ namespace NJTA.Web.Controllers
 
         private static string FindLocation(string id)
         {
-            string[] supportedLocations = new string[] { "Edison", "Parsippany" };
+            string[] supportedLocations = {"Edison"};
             int pos = Array.FindIndex(supportedLocations, t => t.Equals(id, StringComparison.OrdinalIgnoreCase));
             var location = (pos > -1) ? supportedLocations[pos] : "Edison";
             return location;
