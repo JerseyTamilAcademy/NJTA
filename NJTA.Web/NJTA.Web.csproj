@@ -156,6 +156,11 @@
     <Compile Include="Util\LocalizedRazorViewEngine.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="docs\pdfs\2019.KidsContest\*.pdf" />
+    <Content Include="docs\pdfs\2020.KidsContest\*.pdf" />
+    <Content Include="docs\pdfs\*.pdf" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -183,20 +188,10 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="docs\pdfs\CTA-School-Registration-Rules-And-Regulation.pdf" />
-    <Content Include="docs\pdfs\CTA-School-Waiver-Policy.pdf" />
-    <Content Include="docs\pdfs\TTS-GuideLines-Students-2015-2016.pdf" />
     <Content Include="App_Data\Calendar.Edison.csv" />
     <Content Include="App_Data\Calendar.Parsippany.csv" />
     <Content Include="App_Data\Calendar.Edison.2017.csv" />
     <Content Include="App_Data\Calendar.Parsippany.2017.csv" />
-    <Content Include="docs\pdfs\2019.KidsContest\2019_KidsContest_Level1.pdf" />
-    <Content Include="docs\pdfs\2019.KidsContest\2019_KidsContest_Level2.pdf" />
-    <Content Include="docs\pdfs\2019.KidsContest\2019_KidsContest_Level3.pdf" />
-    <Content Include="docs\pdfs\2019.KidsContest\2019_KidsContest_Level4.pdf" />
-    <Content Include="docs\pdfs\2019.KidsContest\2019_KidsContest_Level5.pdf" />
-    <Content Include="docs\pdfs\2019.KidsContest\2019_KidsContest_Level6.pdf" />
-    <Content Include="docs\pdfs\2019.KidsContest\2019_KidsContest_Level7.pdf" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="images\2017_RegFlyer.jpg" />
     <Content Include="images\2018\Gaja_01.jpg" />
@@ -293,6 +288,7 @@
     <Content Include="Views\Home\Calendar.cshtml" />
     <Content Include="Views\Home\_Contact.Edison.cshtml" />
     <Content Include="Views\Home\_Contact.Parsippany.cshtml" />
+	<Content Include="Views\Home\_Index.KidsEvent.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\VolunteersSignUp.cshtml" />
     <Content Include="Views\Resources\Guidelines.cshtml" />
