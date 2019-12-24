@@ -35,77 +35,7 @@
         </p>
     </div>
     <div class="col-md-4">
-        <h2>Notice Board</h2>
-        <div class="row">
-			<div class="col-md-12">
-				<div class="media">
-					<div class="media-left">
-						<img src="~/images/announcement.png" alt="Notice" class="small-icon"/>
-					</div>
-					<div class="media-body">
-						<h4 class="media-heading" style="color: orangered; font-weight: bold">
-							Registration for current academic year 2019-20 is closed.
-						</h4>
-						<!--
-						<p class="text-left">
-							Registration for 2019 will open in mid-late Jul. Please visit again for registration
-						</p>
-						-->
-					</div>
-				</div>
-			</div>
-            <!--
-            <div class="col-md-12">
-                <div class="media">
-                    <div class="media-left">
-                        <img src="~/images/location.jpg" alt="Notice" class="small-icon"/>
-                    </div>
-                    <div class="media-body">
-                        <a href="@Url.Action("Contact", "Home", new {id = "Edison"})" title="Location Changed" style="color: purple; font-weight: bold">
-                            <h4 class="media-heading" style="color: purple; font-weight: bold">
-                                Edison Tamil School operates in J.P. Steven High School
-                            </h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="media">
-                    <div class="media-left">
-                        <img src="~/images/welcomeback.jpg" alt="Notice" class="small-icon" />
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading" style="color: blueviolet; font-weight: bold">
-                            School Opens on Sun Sep 8 2019
-                        </h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-12">
-                <div class="media">
-                    <div class="media-left">
-                        <a href="@Url.Action("Index", "Registration", null)" title="Registration">
-                            <img src="~/images/registernow.jpg" alt="Register" class="small-icon" />
-                        </a>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">
-                            <a href="@Url.Action("Index", "Registration", null)" title="Registration" style="color: purple; font-weight: bold">
-                                <i class="fa fa-bookmark fa-lg fa-red" aria-hidden="true"></i>
-                                Registration for 2019-20 academic year OPEN <br />
-                            </a>
-                        </h4>
-                        <p class="text-left">
-                            <span style="color: #007897"><b>Registration deadline is extended till Sep 21.</b></span><br />
-                            <span style="color: #007897">ONLINE Fees Payment, accepting Credit Cards (Master, Visa, Amex, Discover).</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-			 -->
-
-        </div>
+       @Html.Partial("_Index.NoticeBoard")
     </div>
 </div>
 
