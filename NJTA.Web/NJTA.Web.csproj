@@ -164,6 +164,7 @@
   <ItemGroup>
     <Content Include="images\2018\*.jpg" />
     <Content Include="images\2019\*.jpg" />
+    <Content Include="images\2020\*.jpg" />
     <Content Include="images\banners\*.png" />
     <Content Include="images\banners\*.jpeg" />
     <Content Include="images\events\*.jpg" />
