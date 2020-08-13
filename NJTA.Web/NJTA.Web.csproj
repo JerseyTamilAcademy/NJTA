@@ -141,7 +141,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-	<Compile Include="*.html" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -161,6 +160,7 @@
     <Content Include="docs\pdfs\2019.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\2020.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\*.pdf" />
+	<Content Include="*.html" />	
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\2018\*.jpg" />
