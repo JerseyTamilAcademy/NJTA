@@ -32,7 +32,9 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="@(string.Compare(PageName,"Home.Index") == 0 ? "active" : "")">@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li class="@(string.Compare(PageName,"Registration.Index") == 0 ? "active" : "")">@Html.ActionLink("Registration", "Index", "Registration")</li>
+                    <!--
+                    <li class="@(string.Compare(PageName,"Registration.Index") == 0 ? "active" : "")">@Html.ActionLink("Registration", "Index", "Registration")</li> 
+                        -->
                     <li class="@(string.Compare(PageName,"Home.About") == 0 ? "active" : "")">@Html.ActionLink("About Us", "About", "Home")</li>
                     <li class="dropdown @(string.Compare(ControllerName, "Resources") == 0 ? "active" : "")">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources</a>
