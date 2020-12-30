@@ -144,6 +144,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\EventsController.cs" />
     <Compile Include="Controllers\Graduation2020Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ResourcesController.cs" />
@@ -159,8 +160,9 @@
   <ItemGroup>
     <Content Include="docs\pdfs\2019.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\2020.KidsContest\*.pdf" />
+    <Content Include="docs\pdfs\2021.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\*.pdf" />
-	<Content Include="*.html" />	
+    <Content Include="*.html" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\2018\*.jpg" />
@@ -256,12 +258,15 @@
     <Content Include="Views\Home\Calendar.cshtml" />
     <Content Include="Views\Home\_Contact.Edison.cshtml" />
     <Content Include="Views\Home\_Contact.Parsippany.cshtml" />
-	<Content Include="Views\Home\_Index.KidsEvent.cshtml" />
-	<Content Include="Views\Home\_Index.NoticeBoard.cshtml" />
+    <Content Include="Views\Home\_Index.NoticeBoard.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\VolunteersSignUp.cshtml" />
     <Content Include="Views\Resources\Guidelines.cshtml" />
     <Content Include="Views\Shared\_FavIcon.cshtml" />
+    <Content Include="Views\Home\_Index.Events.GraduationDay.cshtml" />
+    <Content Include="Views\Home\_Index.Events.Contest.cshtml" />
+    <Content Include="Views\Events\Graduation.cshtml" />
+    <Content Include="Views\Events\Contest.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
