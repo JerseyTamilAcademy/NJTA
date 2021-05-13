@@ -7,10 +7,15 @@ namespace NJTA.Web.Controllers
         // GET: Events
         public ActionResult Index()
         {
-            return View("Contest");
+            return View("AnnualDay");
         }
 
         public ActionResult Contest()
+        {
+            return View();
+        }
+
+        public ActionResult AnnualDay()
         {
             return View();
         }
