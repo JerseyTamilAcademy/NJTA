@@ -268,6 +268,7 @@
     <Content Include="Views\Events\Graduation.cshtml" />
     <Content Include="Views\Events\Contest.cshtml" />
     <Content Include="Views\Events\AnnualDay.cshtml" />
+    <Content Include="Views\Home\_Index.Events.AnnualDay.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
