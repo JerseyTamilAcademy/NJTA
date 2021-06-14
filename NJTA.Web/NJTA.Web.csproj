@@ -145,7 +145,6 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\EventsController.cs" />
-    <Compile Include="Controllers\Graduation2020Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ResourcesController.cs" />
     <Compile Include="Controllers\RegistrationController.cs" />
@@ -242,7 +241,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Graduation2020\Index.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Navigation.cshtml" />
@@ -265,10 +263,11 @@
     <Content Include="Views\Shared\_FavIcon.cshtml" />
     <Content Include="Views\Home\_Index.Events.GraduationDay.cshtml" />
     <Content Include="Views\Home\_Index.Events.Contest.cshtml" />
-    <Content Include="Views\Events\Graduation.cshtml" />
-    <Content Include="Views\Events\Contest.cshtml" />
-    <Content Include="Views\Events\AnnualDay.cshtml" />
+    <Content Include="Views\Events\Graduation2020.cshtml" />
+    <Content Include="Views\Events\Contest2020.cshtml" />
+    <Content Include="Views\Events\AnnualDay2021.cshtml" />
     <Content Include="Views\Home\_Index.Events.AnnualDay.cshtml" />
+    <Content Include="Views\Events\Graduation2021.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
