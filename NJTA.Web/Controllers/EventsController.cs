@@ -7,7 +7,7 @@ namespace NJTA.Web.Controllers
         // GET: Events
         public ActionResult Index()
         {
-            return Graduation();
+            return Graduation2021();
         }
 
         public ActionResult Contest()
