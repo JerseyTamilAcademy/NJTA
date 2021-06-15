@@ -20,7 +20,7 @@ namespace NJTA.Web.Controllers
             return View("AnnualDay2021");
         }
 
-        public ActionResult Graduation()
+        public ActionResult Graduation2021()
         {
             return View("Graduation2021");
         }
