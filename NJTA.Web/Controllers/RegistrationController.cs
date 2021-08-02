@@ -8,5 +8,10 @@ namespace NJTA.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult v2020()
+        {
+            return View("index_2020");
+        }
     }
 }
