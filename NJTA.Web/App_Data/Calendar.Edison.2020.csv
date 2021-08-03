@@ -1,0 +1,47 @@
+Status,Week #,Date (Sun),Special Note
+success,Term 1 Begins,,
+danger,1,13-Sep-20,First Day of School
+,2,20-Sep-20,
+info,,27-Sep-20,Holiday
+,3,4-Oct-20,
+warning,4,11-Oct-20,Test #1 - Project
+,5,18-Oct-20,
+,6,25-Oct-20,
+info,,1-Nov-20,Holiday - Fall Break
+,7,8-Nov-20,
+warning,8,15-Nov-20,Test #2
+,9,22-Nov-20,
+info,,29-Nov-20,Holiday - Thanksgiving
+,10,6-Dec-20,
+,11,13-Dec-20,
+warning,12,20-Dec-20,Test #3
+success,Term 1 ends,,
+info,,27-Dec-20,Holiday - Christmas
+info,,3-Jan-20,Holiday - New Year
+success,Term 2 Begins,,
+,13,10-Jan-21,
+,14,17-Jan-21,
+,15,24-Jan-21,
+warning,16,31-Jan-21,Test #4 - Project 2
+,17,7-Feb-21,
+info,,14-Feb-21,Holiday - Presidents Day
+,18,21-Feb-21,
+,19,28-Feb-21,
+warning,20,7-Mar-21,Test #5
+success,Term 2 Ends & Term 3 Begins,,
+,21,14-Mar-21,
+,22,21-Mar-21,
+,23,28-Mar-21,
+info,,4-Apr-21,Holiday - Sping break
+warning,24,11-Apr-21,Test #6
+,25,18-Apr-21,
+,26,25-Apr-21,
+danger,27,2-May-21,Annual Day ( Tentative)
+warning,28,9-May-21,Test #7
+,29,16-May-21,
+,30,23-May-21,
+info,,30-May-21,Holiday - Memorial Day
+,31,6-Jun-21,
+warning,32,13-Jun-21,Final test
+danger,,20-Jun-21,Graduation Day
+success,Term 3 Ends ,,
