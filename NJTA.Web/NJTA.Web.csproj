@@ -269,6 +269,7 @@
     <Content Include="Views\Home\_Index.Events.AnnualDay.cshtml" />
     <Content Include="Views\Events\Graduation2021.cshtml" />
     <Content Include="Views\Registration\Index_2020.cshtml" />
+    <Content Include="Views\Registration\Index_2021-22.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

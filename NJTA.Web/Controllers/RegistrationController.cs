@@ -6,7 +6,7 @@ namespace NJTA.Web.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View("index_2021-22");
         }
 
         public ActionResult v2020()
