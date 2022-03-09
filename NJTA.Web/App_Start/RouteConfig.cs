@@ -16,9 +16,9 @@ namespace NJTA.Web
                 constraints: new { lang = "en|ta" }
             );
 
-            routes.MapRoute("YouTube", "/live/{*pathInfo}", new { controller = "Redirect", action = "Index", path="https://www.youtube.com/channel/UCNTAyRT9Z3KhIFY_79l5pCQ/live" });
+            routes.MapRoute("YouTube", "live/{*pathInfo}", new { controller = "Redirect", action = "Index", path="https://www.youtube.com/channel/UCNTAyRT9Z3KhIFY_79l5pCQ/live" });
 
-            routes.MapRoute("Zoom", "/zoom/{*pathInfo}", new { controller = "Redirect", action = "Index", path="https://us02web.zoom.us/j/3879823360?pwd=WjNxc09DUGhHRTdPK054R2VvcHBQQT09" });
+            routes.MapRoute("Zoom", "zoom/{*pathInfo}", new { controller = "Redirect", action = "Index", path="https://us02web.zoom.us/j/3879823360?pwd=WjNxc09DUGhHRTdPK054R2VvcHBQQT09" });
 
             routes.MapRoute(
                 name: "Default",
