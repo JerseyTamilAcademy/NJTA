@@ -36,9 +36,9 @@ warning,24,27-Mar-22,Test 6
 info,,17-Apr-22,Holiday - Spring break
 info,,24-Apr-22,Holiday - Spring break
 ,27,1-May-22,
-,28,8-May-22,Test 7
+warning,28,8-May-22,Test 7
 ,29,15-May-22,
 ,30,22-May-22,
 info,,29-May-22,Holiday - Memorial Day
 warning,31,5-Jun-22,Test - Final Exam
-info,32,12-Jun-22,Graduation Day
+info,,12-Jun-22,Graduation Day
