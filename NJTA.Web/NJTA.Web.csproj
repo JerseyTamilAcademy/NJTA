@@ -164,6 +164,7 @@
     <Content Include="docs\pdfs\2022.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\*.pdf" />
     <Content Include="*.html" />
+    <Content Include="Views\Events\AnnualDay2022.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\2018\*.jpg" />
@@ -273,6 +274,7 @@
     <Content Include="Views\Events\Graduation2021.cshtml" />
     <Content Include="Views\Registration\Index_2020.cshtml" />
     <Content Include="Views\Registration\Index_2021-22.cshtml" />
+    <None Include="images\2022\2022_AnnualDay.jpeg" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
