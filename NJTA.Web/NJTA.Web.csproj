@@ -165,6 +165,7 @@
     <Content Include="docs\pdfs\*.pdf" />
     <Content Include="*.html" />
     <Content Include="Views\Events\AnnualDay2022.cshtml" />
+    <Content Include="images\2022\2022_AnnualDay.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\2018\*.jpg" />
