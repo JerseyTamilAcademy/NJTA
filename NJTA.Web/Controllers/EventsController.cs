@@ -17,7 +17,7 @@ namespace NJTA.Web.Controllers
 
         public ActionResult AnnualDay()
         {
-            return View("AnnualDay2022");
+            return View("AnnualDay2023");
         }
 
         public ActionResult Graduation2021()

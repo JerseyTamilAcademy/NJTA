@@ -176,6 +176,7 @@
     <Content Include="images\2021\*.png" />
     <Content Include="images\2022\*.jpg" />
     <Content Include="images\2022-23\*.jpg" />
+    <Content Include="images\2022-23\*.png" />
     <Content Include="images\banners\*.png" />
     <Content Include="images\banners\*.jpeg" />
     <Content Include="images\events\*.jpg" />
