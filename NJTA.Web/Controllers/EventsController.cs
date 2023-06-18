@@ -7,7 +7,7 @@ namespace NJTA.Web.Controllers
         // GET: Events
         public ActionResult Index()
         {
-            return AnnualDay();
+            return Graduation();
         }
 
         public ActionResult Contest()
@@ -20,9 +20,9 @@ namespace NJTA.Web.Controllers
             return View("AnnualDay2023");
         }
 
-        public ActionResult Graduation2021()
+        public ActionResult Graduation()
         {
-            return View("Graduation2021");
+            return View("Graduation2022");
         }
     }
 }
