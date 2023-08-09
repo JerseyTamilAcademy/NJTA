@@ -1,0 +1,46 @@
+﻿Status,Week #,Date (Sun),Special Note
+success,Term 1 Begins,,
+danger,1,11-Sep-22,First day of school
+,2,18-Sep-22,
+,3,25-Sep-22,
+warning,4,2-Oct-22,Test 1 - Project
+,5,9-Oct-22,
+,6,16-Oct-22,
+info,,23-Oct-22,Holiday - Deepavali
+,7,30-Oct-22,
+warning,8,6-Nov-22,Test 2
+info,,13-Nov-22,Holiday - WinterBreak
+,9,20-Nov-22,
+info,,27-Nov-22,Holiday - Thanksgiving
+,10,4-Dec-22,
+,11,11-Dec-22,
+warning,12,18-Dec-22,Test 3
+info,,25-Dec-22,Holiday - Christmas
+info,,1-Jan-23,Holiday - New year
+success,Term 1 ends & Term 2 starts,,
+,13,8-Jan-23,
+info,,15-Jan-23,Holiday - ML King's Birthday
+,14,22-Jan-23,
+,15,29-Jan-23,
+warning,16,5-Feb-23,Test 4 - Project 2
+,17,12-Feb-23,
+,18,19-Feb-23,
+,19,26-Feb-23,
+warning,20,5-Mar-23,Test 5
+success,Term 2 ends & Term 3 starts,,
+,21,12-Mar-23,
+,22,19-Mar-23,
+,23,26-Mar-23,
+info,,2-Apr-23,Holiday - Spring break
+info,,9-Apr-23,Holiday - Spring break
+warning,24,16-Apr-23,Test 6
+info,,22-Apr-23,Annual Day
+,25,23-Apr-23,
+,26,30-Apr-23,
+,27,7-May-23,
+warning,28,14-May-23,Test 7
+,29,21-May-23,
+info,,28-May-23,Holiday - Memorial Day
+,30,4-Jun-23,
+warning,31,11-Jun-23,Test - Final Exam
+info,,18-Jun-23,Graduation Day
