@@ -1,138 +1,143 @@
 <h2>Notice Board</h2>
 <div class="row">
 
+
+
     <div class="col-md-12">
         <div class="media">
             <div class="media-left">
-                <img src="~/images/graduationDay.jpg" alt="Kids Contest" class="small-icon img-circle" />
+                <img src="~/images/registernow.jpg" alt="Notice" class="small-icon  img-circle" />
             </div>
             <div class="media-body">
-                <h4 class="media-heading" style="color: purple; font-weight: bold">
-                    Graduation Day
+                <h4 class="media-heading" style="color: blueviolet; font-weight: bold">
+                    <a href="@Url.Action("Index", "Registration", null)">Enrollment for 2023-24 is Open!</a>
                 </h4>
                 <p class="text-left">
-                    Sun Jun 18th, 2023<br />
+                    Click <a href="@Url.Action("Index", "Registration", null)">HERE </a> for the details.
                 </p>
             </div>
         </div>
     </div>
+
+    <div class="col-md-12">
+        <div class="media">
+            <div class="media-left">
+                <img src="~/images/announcement.png" alt="Notice" class="small-icon img-circle" />
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading" style="color: purple; font-weight: bold"></h4>
+                <p class="text-left">
+                    <ul>
+                        <li>Registration deadline: Sep 1</li>
+                        <li>First Day of School: Sep 10</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 @*
-<!--
+    <!--
 
- <div class="col-md-12">
-    <div class="media">
-        <div class="media-left">
-            <img src="~/images/registernow.jpg" alt="Notice" class="small-icon  img-circle" />
+    <div class="col-md-12">
+            <div class="media">
+                <div class="media-left">
+                    <img src="~/images/graduationDay.jpg" alt="Kids Contest" class="small-icon img-circle" />
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading" style="color: purple; font-weight: bold">
+                        Graduation Day
+                    </h4>
+                    <p class="text-left">
+                        Sun Jun 18th, 2023<br />
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="media-body">
-            <h4 class="media-heading" style="color: blueviolet; font-weight: bold">
-                <a href="@Url.Action("Index", "Registration", null)">Enrollment for 2022-23 is Open!</a>
-            </h4>
-            <p class="text-left">
-                Click <a href="@Url.Action("Index", "Registration", null)">HERE </a> for the details.
-            </p>
-        </div>
-    </div>
-</div>
 
-<div class="col-md-12">
-    <div class="media">
-        <div class="media-left">
-            <img src="~/images/announcement.png" alt="Notice" class="small-icon img-circle" />
-        </div>
-        <div class="media-body">
-            <h4 class="media-heading" style="color: purple; font-weight: bold"></h4>
-            <p class="text-left">
-                <ul>
-                    <li>Registration deadline: Sep 5</li>
-                    <li>First Day of School: Sep 11</li>
-                </ul>
-            </p>
-        </div>
-    </div>
-</div>
+   
 
- <div class="col-md-12">
-    <div class="media">
-        <div class="media-left">
-            <img src="~/images/speechContest.jpg" alt="Speech Contest" class="small-icon img-circle" />
-        </div>
-        <div class="media-body">
-            <h4 class="media-heading" style="color: purple; font-weight: bold">
-                Annual Day & Graduation Day
-            </h4>
-            <p class="text-left">
-                Jun 6, 2022<br />
-                JP Stevens High School Auditorium<br />
-                855 Grove Ave, Edison, NJ 08820
-            </p>
-        </div>
-    </div>
-</div>
-
-<div class="col-md-12">
-    <div class="media">
-        <div class="media-left">
-            <img src="~/images/noticeIcon.png" alt="Happy New Year" class="small-icon img-circle" />
-        </div>
-        <div class="media-body">
-            <h4 class="media-heading" style="color: purple; font-weight: bold">
-                2021 Graduation Day on 20-Jun
-            </h4>
-        </div>
-    </div>
-</div>
-
-<div class="col-md-12">
-    <div class="media">
-        <div class="media-left">
-            <img src="~/images/location.jpg" alt="Notice" class="small-icon"/>
-        </div>
-        <div class="media-body">
-            <a href="@Url.Action("Contact", "Home", new {id = "Edison"})" title="Location Changed" style="color: purple; font-weight: bold">
+     <div class="col-md-12">
+        <div class="media">
+            <div class="media-left">
+                <img src="~/images/speechContest.jpg" alt="Speech Contest" class="small-icon img-circle" />
+            </div>
+            <div class="media-body">
                 <h4 class="media-heading" style="color: purple; font-weight: bold">
-                    Edison Tamil School operates in J.P. Steven High School
+                    Annual Day & Graduation Day
                 </h4>
-            </a>
+                <p class="text-left">
+                    Jun 6, 2022<br />
+                    JP Stevens High School Auditorium<br />
+                    855 Grove Ave, Edison, NJ 08820
+                </p>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="col-md-12">
-    <div class="media">
-        <div class="media-left">
-            <img src="~/images/welcomeback.jpg" alt="Notice" class="small-icon" />
-        </div>
-        <div class="media-body">
-            <h4 class="media-heading" style="color: blueviolet; font-weight: bold">
-                School Opens on Sun Sep 8 2019
-            </h4>
+    <div class="col-md-12">
+        <div class="media">
+            <div class="media-left">
+                <img src="~/images/noticeIcon.png" alt="Happy New Year" class="small-icon img-circle" />
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading" style="color: purple; font-weight: bold">
+                    2021 Graduation Day on 20-Jun
+                </h4>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="col-md-12">
-    <div class="media">
-        <div class="media-left">
-            <a href="@Url.Action("Index", "Registration", null)" title="Registration">
-                <img src="~/images/registernow.jpg" alt="Register" class="small-icon" />
-            </a>
-        </div>
-        <div class="media-body">
-            <h4 class="media-heading">
-                <a href="@Url.Action("Index", "Registration", null)" title="Registration" style="color: purple; font-weight: bold">
-                    <i class="fa fa-bookmark fa-lg fa-red" aria-hidden="true"></i>
-                    Registration for 2019-20 academic year OPEN <br />
+    <div class="col-md-12">
+        <div class="media">
+            <div class="media-left">
+                <img src="~/images/location.jpg" alt="Notice" class="small-icon"/>
+            </div>
+            <div class="media-body">
+                <a href="@Url.Action("Contact", "Home", new {id = "Edison"})" title="Location Changed" style="color: purple; font-weight: bold">
+                    <h4 class="media-heading" style="color: purple; font-weight: bold">
+                        Edison Tamil School operates in J.P. Steven High School
+                    </h4>
                 </a>
-            </h4>
-            <p class="text-left">
-                <span style="color: #007897"><b>Registration deadline is extended till Sep 21.</b></span><br />
-                <span style="color: #007897">ONLINE Fees Payment, accepting Credit Cards (Master, Visa, Amex, Discover).</span>
-            </p>
+            </div>
         </div>
     </div>
-</div>
- -->
+
+    <div class="col-md-12">
+        <div class="media">
+            <div class="media-left">
+                <img src="~/images/welcomeback.jpg" alt="Notice" class="small-icon" />
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading" style="color: blueviolet; font-weight: bold">
+                    School Opens on Sun Sep 8 2019
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="media">
+            <div class="media-left">
+                <a href="@Url.Action("Index", "Registration", null)" title="Registration">
+                    <img src="~/images/registernow.jpg" alt="Register" class="small-icon" />
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">
+                    <a href="@Url.Action("Index", "Registration", null)" title="Registration" style="color: purple; font-weight: bold">
+                        <i class="fa fa-bookmark fa-lg fa-red" aria-hidden="true"></i>
+                        Registration for 2019-20 academic year OPEN <br />
+                    </a>
+                </h4>
+                <p class="text-left">
+                    <span style="color: #007897"><b>Registration deadline is extended till Sep 21.</b></span><br />
+                    <span style="color: #007897">ONLINE Fees Payment, accepting Credit Cards (Master, Visa, Amex, Discover).</span>
+                </p>
+            </div>
+        </div>
+    </div>
+     -->
 *@

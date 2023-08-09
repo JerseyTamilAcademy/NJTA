@@ -177,6 +177,8 @@
     <Content Include="images\2022\*.jpg" />
     <Content Include="images\2022-23\*.jpg" />
     <Content Include="images\2022-23\*.png" />
+	<Content Include="images\2023-24\*.jpg" />
+    <Content Include="images\2023-24\*.png" />
     <Content Include="images\banners\*.png" />
     <Content Include="images\banners\*.jpeg" />
     <Content Include="images\events\*.jpg" />
@@ -279,9 +281,11 @@
     <Content Include="Views\Registration\Index_2020.cshtml" />
     <Content Include="Views\Registration\Index_2021-22.cshtml" />
     <Content Include="Views\Registration\Index_2022-23.cshtml" />
+	<Content Include="Views\Registration\Index_2023-24.cshtml" />
     <None Include="images\2022\2022_AnnualDay.jpeg" />
     <Content Include="Views\Events\AnnualDay2023.cshtml" />
     <Content Include="Views\Events\Graduation2022.cshtml" />
+    
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
