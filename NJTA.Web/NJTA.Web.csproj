@@ -163,6 +163,7 @@
     <Content Include="docs\pdfs\2021.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\2022.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\2023.KidsContest\*.pdf" />
+<Content Include="docs\pdfs\2024.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\*.pdf" />
     <Content Include="*.html" />
     <Content Include="Views\Events\AnnualDay2022.cshtml" />
