@@ -163,7 +163,7 @@
     <Content Include="docs\pdfs\2021.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\2022.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\2023.KidsContest\*.pdf" />
-<Content Include="docs\pdfs\2024.KidsContest\*.pdf" />
+    <Content Include="docs\pdfs\2024.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\*.pdf" />
     <Content Include="*.html" />
     <Content Include="Views\Events\AnnualDay2022.cshtml" />
@@ -178,8 +178,9 @@
     <Content Include="images\2022\*.jpg" />
     <Content Include="images\2022-23\*.jpg" />
     <Content Include="images\2022-23\*.png" />
-	<Content Include="images\2023-24\*.jpg" />
+    <Content Include="images\2023-24\*.jpg" />
     <Content Include="images\2023-24\*.png" />
+    <Content Include="images\2024-25\*.jpg" />
     <Content Include="images\banners\*.png" />
     <Content Include="images\banners\*.jpeg" />
     <Content Include="images\events\*.jpg" />
@@ -277,13 +278,14 @@
     <Content Include="Views\Events\Graduation2020.cshtml" />
     <Content Include="Views\Events\Contest2020.cshtml" />
     <Content Include="Views\Events\AnnualDay2021.cshtml" />
- <Content Include="Views\Events\Contest2024.cshtml" />
+    <Content Include="Views\Events\Contest2024.cshtml" />
     <Content Include="Views\Home\_Index.Events.AnnualDay.cshtml" />
     <Content Include="Views\Events\Graduation2021.cshtml" />
     <Content Include="Views\Registration\Index_2020.cshtml" />
     <Content Include="Views\Registration\Index_2021-22.cshtml" />
     <Content Include="Views\Registration\Index_2022-23.cshtml" />
-	<Content Include="Views\Registration\Index_2023-24.cshtml" />
+    <Content Include="Views\Registration\Index_2023-24.cshtml" />
+    <Content Include="Views\Registration\Index_2024-25.cshtml" />
     <None Include="images\2022\2022_AnnualDay.jpeg" />
     <Content Include="Views\Events\AnnualDay2023.cshtml" />
     <Content Include="Views\Events\Graduation2022.cshtml" />
