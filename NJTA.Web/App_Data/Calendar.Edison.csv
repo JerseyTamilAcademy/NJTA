@@ -30,13 +30,13 @@ success,Term 2 Ends & Term 3 Begins,,
 ,21,2-Mar-25,
 ,22,9-Mar-25,
 ,23,16-Mar-25,
-danger,,22-Mar-25,Student Competition
+danger,-,22-Mar-25,Student Competition
 warning,24,23-Mar-25,Test 6
 ,25,30-Mar-25,
 ,26,6-Apr-25,
 info,,13-Apr-25,Holiday - Spring Break
 info,,20-Apr-25,Holiday - Spring Break
-danger,,26-Apr-25,Annual Day
+danger,-,26-Apr-25,Annual Day
 ,27,27-Apr-25,
 warning,28,4-May-25,Test 7
 info,,11-May-25,Holiday - Mother's day
@@ -46,4 +46,4 @@ info,,25-May-25,Holiday - Memorial day
 ,31,8-Jun-25,
 warning,32,15-Jun-25,Test - Final Exam
 success,Term 3 Ends,,
-danger,33,22-Jun-25,Graduation day
+danger,-,22-Jun-25,Graduation day
