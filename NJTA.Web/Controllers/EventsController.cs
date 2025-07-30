@@ -11,13 +11,8 @@ namespace NJTA.Web.Controllers
             return Contest();
         }
 
-        //public ActionResult Contest()
-        //{
-        //    return View("Contest2020");
-        //}
-        
         public ActionResult Contest()
-	{
+        {
             return View("Contest2025");
         }
 
