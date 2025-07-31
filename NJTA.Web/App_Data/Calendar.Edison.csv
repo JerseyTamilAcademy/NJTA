@@ -12,17 +12,3 @@ warning,8,2-Nov-25,Test 2
 ,9,9-Nov-25,
 ,10,16-Nov-25,
 ,11,23-Nov-25,
-info,,30-Nov-25,Holiday - Thanksgiving
-warning,12,7-Dec-25,Test 3
-success,Term 1 Ends & Term 2 Begins,,
-,13,14-Dec-25,
-,14,21-Dec-25,
-info,,28-Dec-25,Holiday - Christmas
-,15,4-Jan-26,
-warning,16,11-Jan-26,Test 4 - Project 2
-danger,,11-Jan-26,Pongal Celebration
-info,17,18-Jan-26,Online Class
-,18,25-Jan-25,
-,19,1-Feb-26,
-warning,20,8-Feb-26,Test 5
-success,Term 2 Ends & Term 3 Begins,,
