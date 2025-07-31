@@ -1,0 +1,49 @@
+Status,Week #,Date (Sun),Special Note
+success,Term 1 Begins,,
+danger,1,7-Sep-25,First day of school
+,2,14-Sep-25,
+,3,21-Sep-25,
+warning,4,28-Sep-25,Test 1 - Project
+,5,5-Oct-25,
+,6,12-Oct-25,
+info,,19-Oct-25,Holiday Deepavali 
+,7,26-Oct-25,
+warning,8,2-Nov-25,Test 2
+,9,9-Nov-25,
+,10,16-Nov-25,
+,11,23-Nov-25,
+info,,30-Nov-25,Holiday - Thanksgiving
+warning,12,7-Dec-25,Test 3
+success,Term 1 Ends & Term 2 Begins,,
+,13,14-Dec-25,
+,14,21-Dec-25,
+info,,28-Dec-25,Holiday - Christmas
+,15,4-Jan-26,
+warning,16,11-Jan-26,Test 4 - Project 2
+danger,,11-Jan-26,Pongal Celebration
+info,17,18-Jan-26,Online Class
+,18,25-Jan-25,
+,19,1-Feb-26,
+warning,20,8-Feb-26,Test 5
+success,Term 2 Ends & Term 3 Begins,,
+info,,15-Feb-26,Holiday - Presidents Day
+,21,22-Feb-26,
+,22,1-Mar-26,
+,23,8-Mar-26,
+danger,,14-Mar-26,Student Competition
+warning,24,15-Mar-26,Test 6
+info,,22-Mar-25,Holiday - EID
+,25,29-Mar-26,
+info,,5-Apr-25,Holiday - Spring Break
+,26,12-Apr-26,
+,27,19-Apr-26,
+danger,,25-Apr-26,Annual Day
+,28,26-Apr-26,
+,29,3-May-26,
+info,,10-May-26,Holiday - Mother's Day
+,30,17-May-26,
+info,,24-May-26,Holiday - Memorial Day
+,31,31-May-26,
+warning,32,7-Jun-26,Test 8 - Final Exam
+success,Term 3 Ends,,
+danger,,14-Jun-26,Graduation Day
