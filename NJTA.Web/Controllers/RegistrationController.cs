@@ -9,9 +9,9 @@ namespace NJTA.Web.Controllers
             return View("index_2025-26");
         }
 
-        public ActionResult v24()
+        public ActionResult v25()
         {
-            return View("index_2023-24");
+            return View("index_2024-25");
         }
     }
 }
