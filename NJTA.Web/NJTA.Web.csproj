@@ -165,6 +165,7 @@
     <Content Include="docs\pdfs\2023.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\2024.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\2025.KidsContest\*.pdf" />
+    <Content Include="docs\pdfs\2026.KidsContest\*.pdf" />
     <Content Include="docs\pdfs\*.pdf" />
     <Content Include="*.html" />
     <Content Include="Views\Events\AnnualDay2022.cshtml" />
@@ -281,6 +282,7 @@
     <Content Include="Views\Events\Contest2020.cshtml" />
     <Content Include="Views\Events\Contest2024.cshtml" />
     <Content Include="Views\Events\Contest2025.cshtml" />
+    <Content Include="Views\Events\Contest2026.cshtml" />
     <Content Include="Views\Events\AnnualDay2021.cshtml" />
     <Content Include="Views\Home\_Index.Events.AnnualDay.cshtml" />
     <Content Include="Views\Events\Graduation2021.cshtml" />
