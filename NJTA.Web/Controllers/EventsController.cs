@@ -13,7 +13,7 @@ namespace NJTA.Web.Controllers
 
         public ActionResult Contest()
         {
-            return View("Contest2025");
+            return View("Contest2026");
         }
 
         public ActionResult AnnualDay()
