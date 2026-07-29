@@ -292,6 +292,8 @@
     <Content Include="Views\Registration\Index_2023-24.cshtml" />
     <Content Include="Views\Registration\Index_2024-25.cshtml" />
     <Content Include="Views\Registration\Index_2025-26.cshtml" />
+    <Content Include="Views\Registration\Index_2026-27.cshtml" />
+    <Content Include="Views\Home\Index_2026-27.cshtml" />
     <None Include="images\2022\2022_AnnualDay.jpeg" />
     <Content Include="Views\Events\AnnualDay2023.cshtml" />
     <Content Include="Views\Events\Graduation2022.cshtml" />
