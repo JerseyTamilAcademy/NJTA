@@ -6,12 +6,12 @@ namespace NJTA.Web.Controllers
     {
         public ActionResult Index()
         {
-            return View("index_2026-27");
+            return View("Index_2026-27");
         }
 
         public ActionResult v25()
         {
-            return View("index_2024-25");
+            return View("Index_2024-25");
         }
     }
 }
