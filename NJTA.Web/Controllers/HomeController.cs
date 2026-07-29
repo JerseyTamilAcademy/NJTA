@@ -29,6 +29,7 @@ namespace NJTA.Web.Controllers
         {
             string location = FindLocation(id);
             ViewBag.Location = location;
+            ViewBag.Title = "Calendar - " + location + " (2026-27 Academic Year)";
             var calendarInfo = GetCalendarInfo(location);
             return View(calendarInfo);
         }
